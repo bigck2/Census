@@ -36,4 +36,26 @@ vt %>%
 vt <- get_acs(geography = "county", variables = "HC01_EST_VC13", state = "VT")
 
 
+v15 <- load_variables(2015, "acs5", cache = TRUE)
+
+View(v15)
+
+
+pop <- get_acs(geography = "county", variables = "B01001_001", state = "TX")
+
+pop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
