@@ -38,7 +38,7 @@ vt %>%
 vt <- get_acs(geography = "county", variables = "HC01_EST_VC13", state = "VT")
 
 
-v15 <- load_variables(2015, "acs5", cache = TRUE)
+v15 <- load_variables(2016, "acs1", cache = TRUE)
 
 View(v15)
 
@@ -99,7 +99,8 @@ dal_value %>%
 
 # BLAH --------------------------------------------------------------------
 
-
+metros <- get_acs(geography = "metropolitan statistical area/micropolitan statistical area",
+                  variables = "B01003_001")
 
 tx <- get_acs(geography = "zcta", variables = "B01001_001")
 
@@ -191,6 +192,36 @@ tm_shape(state) +
 
 
 
+
+# County subdivision
+# This works but note that geometry does not work at this geography
+dal_div <- get_acs(geography = "county subdivision", 
+                   variables = "B01003_001", 
+                   state = "TX", county = "Dallas")
+                   
+
+
+# Place
+my_place <- get_acs(geography = "place", 
+                    variables = "B01003_001") 
+                    
+
+
+# Block Group
+# Requires State and County
+bg <- get_acs(geography = "block group", 
+                    variables = "B01003_001", 
+              state = "TX", county = "Dallas") 
+
+
+bg <- get_acs(geography = "block group", 
+              variables = "B01003_001", 
+              state = "TX", county = "Dallas",
+              geometry = TRUE) 
+
+                 
+
+qtm(bg, fill = "estimate")
 
 
 
