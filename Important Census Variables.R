@@ -109,6 +109,16 @@ my_vec <- c(tenure_by_edu_total = "B25013_001",
             )
 
 
+my_vec <- c(median_gross_rent = "B25031_001",
+            median_gross_rent_0_bed = "B25031_002",
+            median_gross_rent_1_bed = "B25031_003",
+            median_gross_rent_2_bed = "B25031_004",
+            median_gross_rent_3_bed = "B25031_005",
+            median_gross_rent_4_bed = "B25031_006",
+            median_gross_rent_5_bed = "B25031_007")
+
+
+
 
 
 
