@@ -6,10 +6,11 @@ library(tmap)
 tx <- counties(state = "TX", cb = TRUE, resolution = "20m")
 
 # From tidycensus
-rent <- get_acs(year = 2016, 
+rent <- get_acs(year = 2015, 
                 geography = "county", 
                 variables = "B25031_001", 
-                state = "TX")
+                state = "TX", 
+                survey = "acs5")
 
 # From tigris
 my_dat <- geo_join(tx, rent, by = "GEOID")
