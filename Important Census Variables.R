@@ -30,6 +30,8 @@ my_vec <- c(median_age = "B01002_001",
             total_population = "B01003_001"
             )
 
+my_vec <- c(inc_median_household_income = "B19013_001")
+
 my_vec <- c(commute_total = "B08012_001",
             commute_less_5_min = "B08012_002",
             commute_5_to_9_min = "B08012_003",
