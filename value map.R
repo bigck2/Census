@@ -85,24 +85,49 @@ my_breaks <- c(0, 75000, 150000, 225000, 300000,
                max(dat$estimate, na.rm = TRUE))
 
 my_labels <- c("0-$75k", "$76-150k", "$151-225k", "$226-300k",
-               "$301-400k", "401-500k", "501-700K",
+               "$301-400k", "$401-500k", "$501-700K",
                "$701k_or_more")
 
-test <- cut(dat$estimate, breaks = my_breaks, labels = my_labels)
 
 tx_zips$value <- cut(tx_zips$estimate, breaks = my_breaks, labels = my_labels)
 
 
-tm_shape(tx_zips) +
-  tm_polygons(col = "value")
 
+
+# Better Maps -------------------------------------------------------------
 
 
 library(RColorBrewer)
 
-my_cols <- brewer.pal(9, "Set3")
+my_cols <- brewer.pal(9, "YlGnBu")
 
 
+p <- tm_shape(tx_zips) +
+  tm_polygons(col = "value", palette = my_cols)
+
+# p <- tm_shape(tx_zips) +
+#         tm_polygons(col = "value", palette = my_cols, alpha = 0.5)
+
+library(leaflet)
+
+tmap_leaflet(p) %>%
+  addProviderTiles(providers$Stamen.Toner)
+  
+
+
+# Todo: I'd like to make the background map darker
+
+factpal <- colorFactor(palette = my_cols, levels = levels(tx_zips$value))
+
+leaflet(tx_zips) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolygons(stroke = FALSE, 
+              fillOpacity = 0.5,
+              fillColor = ~factpal(value)) %>%
+  addLegend(pal = factpal, 
+            values = ~value,
+            title = "Median Home Values",
+            opacity = 1)
 
 
 
