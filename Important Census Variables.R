@@ -15,8 +15,8 @@ library(tidycensus)
 census_api_key("f6259ec5d271471f6656ae7c66e2f41b867e5cb1")
 
 
-v15 <- load_variables(2016, "acs1", cache = TRUE)
-View(v15)
+v16 <- load_variables(2016, "acs1", cache = TRUE)
+View(v16)
 
 
 
@@ -85,6 +85,29 @@ my_vec <- c(age_sex_total_pop_m = "B01001_002",
 
 
 my_vec <- c(inc_median_household_income = "B19013_001")
+
+my_vec <- c(hou_inc_total_pop = "B19001_001")
+
+my_vec <- c(hou_inc_less_than_10 = "B19001_002",
+            hou_inc_10_to_14 = "B19001_003",
+            hou_inc_15_to_19 = "B19001_004",
+            hou_inc_20_to_24 = "B19001_005",
+            hou_inc_25_to_29 = "B19001_006",
+            hou_inc_30_to_34 = "B19001_007",
+            hou_inc_35_to_39 = "B19001_008",
+            hou_inc_40_to_44 = "B19001_009",
+            hou_inc_45_to_49 = "B19001_010",
+            hou_inc_50_to_59 = "B19001_011",
+            hou_inc_60_to_74 = "B19001_012",
+            hou_inc_75_to_99 = "B19001_013",
+            hou_inc_100_to_124 = "B19001_014",
+            hou_inc_125_to_149 = "B19001_015",
+            hou_inc_150_to_199 = "B19001_016",
+            hou_inc_200_or_more = "B19001_017"
+            )
+
+
+
 
 my_vec <- c(commute_total = "B08012_001",
             commute_less_5_min = "B08012_002",
@@ -261,6 +284,12 @@ tx <- get_acs(geography = "state",
               survey = "acs1", 
               year = 2016)
 
+tx <- get_acs(geography = "state", 
+              variables = my_vec, 
+              survey = "acs1", 
+              year = 2016, 
+              output = "wide")
+
 tx <- tx %>% filter(NAME == "Texas")
 
 
@@ -286,7 +315,7 @@ tx <- get_acs(geography = "state",
               variables = my_vec, 
               survey = "acs1", 
               year = 2016, 
-              summary_var = "B15003_001")
+              summary_var = "B19001_001")
 
 
 tx <- tx %>% filter(NAME == "Texas")
@@ -321,12 +350,13 @@ View(tx)
 # Age Manipulation --------------------------------------------------------
 
 
+# Pull Data
 age <- get_acs(geography = "state", 
               variables = my_vec, 
               survey = "acs1", 
               year = 2016)
 
-View(age)
+
 
 # Create a named vector (opposite of my_vec) (a lookup vector)
 my_vec_lookup <- names(my_vec)
@@ -338,22 +368,19 @@ age$var <- my_vec_lookup[age$variable]
 rm(my_vec, my_vec_lookup)
 
 
+# Add a sex variable column
 age$sex <- str_sub(age$var, -1)
 
+# drop the suffix which is moved to the sex column
 age$var <- str_sub(age$var, end = -3)
 
-
+# drop moe and variable columns
 age <- age %>% 
         select(-moe, -variable) 
    
 
 age <- age %>% 
        spread(key = sex, value = estimate) 
-
-
-
-
-
 
 
 age_0_9 <- age %>%
@@ -459,13 +486,155 @@ rm(age_0_9, age_10_19, age_20_29,
 
 
 
+
+
+
+
+
+
+
+#  Plots ------------------------------------------------------------------
+
+
 # A plot for one area (TX)
 tx <- filter(age, NAME == "Texas")
 
 View(tx)
 
+library(RColorBrewer)
+
 ggplot(tx, aes(x = variable, y = value, fill = sex)) +
-  geom_bar(stat = "identity", position = "dodge", alpha = 0.8) +
+  geom_bar(stat = "identity", position = "dodge") +
   theme_bw() +
-  scale_y_continuous(labels = scales::comma )
+  scale_y_continuous(labels = scales::comma ) +
+  scale_fill_manual(values = brewer.pal(9, "Set3")[c(4,5)])
+
+
+
+View(age)
+
+
+test <- age %>%
+        group_by(NAME) %>%
+        mutate(freq = value / sum(value))
+
+View(test)
+
+test <- filter(test, NAME == "Texas")
+
+
+ggplot(test, aes(x = variable, y = freq, fill = sex)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_bw() +
+  scale_y_continuous(labels = scales::percent ) +
+  scale_fill_manual(values = brewer.pal(9, "Set3")[c(4,5)]) +
+  geom_text(aes(label = scales::percent(freq)), 
+            position = position_dodge(0.9), 
+            vjust = 1.5)
+
+
+
+ggplot(test, aes(x = variable, y = value, fill = sex)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_bw() +
+  scale_y_continuous(labels = scales::comma ) +
+  scale_fill_manual(values = brewer.pal(9, "Set3")[c(4,5)]) +
+  geom_text(aes(label = paste0(scales::comma(round(value/1000, 0)), "k")), 
+            position = position_dodge(0.9), 
+            vjust = 1.5)
+
+
+
+names(test)
+
+unique(test$variable)
+
+
+
+
+
+
+
+#  Income Manipulation ----------------------------------------------------
+
+
+
+inc <- get_acs(geography = "state", 
+              variables = my_vec, 
+              survey = "acs1", 
+              year = 2016, 
+              summary_var = "B19001_001")
+
+
+# Create a named vector (opposite of my_vec) (a lookup vector)
+my_vec_lookup <- names(my_vec)
+names(my_vec_lookup) <- my_vec
+
+# Index the lookup table / vector by the variable column 
+inc$var <- my_vec_lookup[inc$variable]
+
+rm(my_vec, my_vec_lookup)
+
+
+my_names <- c(hou_inc_less_than_10 = "<$10k",
+              hou_inc_10_to_14 = "$10-14k",
+              hou_inc_15_to_19 = "$15-19k",
+              hou_inc_20_to_24 = "$20-24k",
+              hou_inc_25_to_29 = "$25-29k",
+              hou_inc_30_to_34 = "$30-34k",
+              hou_inc_35_to_39 = "$35-39k",
+              hou_inc_40_to_44 = "$40-44k",
+              hou_inc_45_to_49 = "$45-49k",
+              hou_inc_50_to_59 = "$50-59k",
+              hou_inc_60_to_74 = "$60-74k",
+              hou_inc_75_to_99 = "$75-99k",
+              hou_inc_100_to_124 = "$100-124k",
+              hou_inc_125_to_149 = "$125-149k",
+              hou_inc_150_to_199 = "$150-199k",
+              hou_inc_200_or_more = ">=$200k"
+)
+
+
+inc$pretty_variable <- my_names[inc$var]
+
+
+
+inc <- inc %>%
+       select(-moe, -summary_moe) %>%
+       mutate(inc_perc = estimate / summary_est)
+
+
+
+inc <- inc %>%
+       mutate(var = factor(var, levels = rev(unique(inc$var))),
+              pretty_variable = factor(pretty_variable, levels = rev(unique(inc$pretty_variable))))  
+
+
+
+tx <- filter(inc, NAME == "Texas")
+
+
+ggplot(tx, aes(x = pretty_variable, y = estimate)) +
+  geom_bar(stat = "identity", fill = "lightgreen") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(y = NULL, x = NULL)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
