@@ -1,5 +1,5 @@
 library(tidyverse)
-
+library(stringr)
 
 # Relevant Variables Selection
 
@@ -29,6 +29,60 @@ my_vec <- c(median_age = "B01002_001",
             median_age_female = "B01002_003",
             total_population = "B01003_001"
             )
+
+
+my_vec <- c(age_sex_total_pop = "B01001_001")
+
+my_vec <- c(age_sex_total_pop_m = "B01001_002",
+            age_sex_0_4_yrs_m = "B01001_003",
+            age_sex_5_9_yrs_m = "B01001_004",
+            age_sex_10_14_yrs_m = "B01001_005",
+            age_sex_15_17_yrs_m = "B01001_006",
+            age_sex_18_19_yrs_m = "B01001_007",
+            age_sex_20_yrs_m = "B01001_008",
+            age_sex_21_yrs_m = "B01001_009",
+            age_sex_22_24_yrs_m = "B01001_010",
+            age_sex_25_29_yrs_m = "B01001_011",
+            age_sex_30_34_yrs_m = "B01001_012",
+            age_sex_35_39_yrs_m = "B01001_013",
+            age_sex_40_44_yrs_m = "B01001_014",
+            age_sex_45_49_yrs_m = "B01001_015",
+            age_sex_50_54_yrs_m = "B01001_016",
+            age_sex_55_59_yrs_m = "B01001_017",
+            age_sex_60_61_yrs_m = "B01001_018",
+            age_sex_62_64_yrs_m = "B01001_019",
+            age_sex_65_66_yrs_m = "B01001_020",
+            age_sex_67_69_yrs_m = "B01001_021",
+            age_sex_70_74_yrs_m = "B01001_022",
+            age_sex_75_79_yrs_m = "B01001_023",
+            age_sex_80_84_yrs_m = "B01001_024",
+            age_sex_85_or_more_yrs_m = "B01001_025",
+            age_sex_total_pop_f = "B01001_026",
+            age_sex_0_4_yrs_f = "B01001_027",
+            age_sex_5_9_yrs_f = "B01001_028",
+            age_sex_10_14_yrs_f = "B01001_029",
+            age_sex_15_17_yrs_f = "B01001_030",
+            age_sex_18_19_yrs_f = "B01001_031",
+            age_sex_20_yrs_f = "B01001_032",
+            age_sex_21_yrs_f = "B01001_033",
+            age_sex_22_24_yrs_f = "B01001_034",
+            age_sex_25_29_yrs_f = "B01001_035",
+            age_sex_30_34_yrs_f = "B01001_036",
+            age_sex_35_39_yrs_f = "B01001_037",
+            age_sex_40_44_yrs_f = "B01001_038",
+            age_sex_45_49_yrs_f = "B01001_039",
+            age_sex_50_54_yrs_f = "B01001_040",
+            age_sex_55_59_yrs_f = "B01001_041",
+            age_sex_60_61_yrs_f = "B01001_042",
+            age_sex_62_64_yrs_f = "B01001_043",
+            age_sex_65_66_yrs_f = "B01001_044",
+            age_sex_67_69_yrs_f = "B01001_045",
+            age_sex_70_74_yrs_f = "B01001_046",
+            age_sex_75_79_yrs_f = "B01001_047",
+            age_sex_80_84_yrs_f = "B01001_048",
+            age_sex_85_or_more_yrs_f = "B01001_049"
+            )
+
 
 my_vec <- c(inc_median_household_income = "B19013_001")
 
@@ -200,10 +254,6 @@ my_vec <- c(value_lower_quartile = "B25076_001",
 
 
 
-
-
-
-
 # Actually pull the data --------------------------------------------------
 
 tx <- get_acs(geography = "state", 
@@ -250,6 +300,55 @@ tx <- tx %>%
 
 
 
+# Pull in a table ---------------------------------------------------------
+
+
+my_vec <- c(age_and_sex_table = "B01001")
+
+tx <- get_acs(geography = "state", 
+              table = my_vec, 
+              survey = "acs1", 
+              year = 2016)
+
+tx <- tx %>% filter(NAME == "Texas")
+
+View(tx)
+
+
+
+
+
+# Age Manipulation --------------------------------------------------------
+
+
+age <- get_acs(geography = "state", 
+              variables = my_vec, 
+              survey = "acs1", 
+              year = 2016)
+
+View(age)
+
+# Create a named vector (opposite of my_vec) (a lookup vector)
+my_vec_lookup <- names(my_vec)
+names(my_vec_lookup) <- my_vec
+
+# Index the lookup table / vector by the variable column 
+age$var <- my_vec_lookup[age$variable]
+
+rm(my_vec, my_vec_lookup)
+
+
+age$sex <- str_sub(age$var, -1)
+
+age$var <- str_sub(age$var, end = -3)
+
+
+age <- age %>% 
+        select(-moe, -variable) 
+   
+
+age <- age %>% 
+       spread(key = sex, value = estimate) 
 
 
 
@@ -257,11 +356,116 @@ tx <- tx %>%
 
 
 
+age_0_9 <- age %>%
+            filter(var %in% c("age_sex_0_4_yrs", "age_sex_5_9_yrs")) %>%
+            group_by(GEOID, NAME) %>%
+            summarize(age_0_9_yrs_f = sum(f),
+                      age_0_9_yrs_m = sum(m)) %>% 
+            gather(key = "variable", value = "value", 
+                   -GEOID, -NAME) %>%
+            mutate(sex = str_sub(variable, start = -1),
+                   variable = str_sub(variable, end = -3))
+
+
+age_10_19 <- age %>%
+             filter(var %in% c("age_sex_10_14_yrs", "age_sex_15_17_yrs",
+                               "age_sex_18_19_yrs")) %>%
+             group_by(GEOID, NAME) %>%
+             summarize(age_10_19_yrs_f = sum(f),
+                       age_10_19_yrs_m = sum(m)) %>% 
+              gather(key = "variable", value = "value", 
+                     -GEOID, -NAME) %>%
+            mutate(sex = str_sub(variable, start = -1),
+                   variable = str_sub(variable, end = -3))
+
+age_20_29 <- age %>%
+              filter(var %in% c("age_sex_20_yrs", "age_sex_21_yrs",
+                                "age_sex_22_24_yrs", "age_sex_25_29_yrs")) %>%
+              group_by(GEOID, NAME) %>%
+              summarize(age_20_29_yrs_f = sum(f),
+                        age_20_29_yrs_m = sum(m)) %>% 
+              gather(key = "variable", value = "value", 
+                     -GEOID, -NAME) %>%
+              mutate(sex = str_sub(variable, start = -1),
+                     variable = str_sub(variable, end = -3))
+
+age_30_39 <- age %>%
+              filter(var %in% c("age_sex_30_34_yrs", "age_sex_35_39_yrs")) %>%
+              group_by(GEOID, NAME) %>%
+              summarize(age_30_39_yrs_f = sum(f),
+                        age_30_39_yrs_m = sum(m)) %>% 
+              gather(key = "variable", value = "value", 
+                     -GEOID, -NAME) %>%
+              mutate(sex = str_sub(variable, start = -1),
+                     variable = str_sub(variable, end = -3))
+
+
+age_40_49 <- age %>%
+              filter(var %in% c("age_sex_40_44_yrs", "age_sex_45_49_yrs")) %>%
+              group_by(GEOID, NAME) %>%
+              summarize(age_40_49_yrs_f = sum(f),
+                        age_40_49_yrs_m = sum(m)) %>% 
+              gather(key = "variable", value = "value", 
+                     -GEOID, -NAME) %>%
+              mutate(sex = str_sub(variable, start = -1),
+                     variable = str_sub(variable, end = -3))
+
+
+age_50_59 <- age %>%
+              filter(var %in% c("age_sex_50_54_yrs", "age_sex_55_59_yrs")) %>%
+              group_by(GEOID, NAME) %>%
+              summarize(age_50_59_yrs_f = sum(f),
+                        age_50_59_yrs_m = sum(m)) %>% 
+              gather(key = "variable", value = "value", 
+                     -GEOID, -NAME) %>%
+              mutate(sex = str_sub(variable, start = -1),
+                     variable = str_sub(variable, end = -3))
+
+
+age_60_69 <- age %>%
+            filter(var %in% c("age_sex_60_61_yrs", "age_sex_62_64_yrs",
+                              "age_sex_65_66_yrs", "age_sex_67_69_yrs")) %>%
+            group_by(GEOID, NAME) %>%
+            summarize(age_60_69_yrs_f = sum(f),
+                      age_60_69_yrs_m = sum(m)) %>% 
+            gather(key = "variable", value = "value", 
+                   -GEOID, -NAME) %>%
+            mutate(sex = str_sub(variable, start = -1),
+                   variable = str_sub(variable, end = -3))
 
 
 
 
+age_70_or_over <- age %>%
+                  filter(var %in% c("age_sex_70_74_yrs", "age_sex_75_79_yrs",
+                                    "age_sex_80_84_yrs", "age_sex_85_or_more_yrs")) %>%
+                  group_by(GEOID, NAME) %>%
+                  summarize(age_70_or_more_f = sum(f),
+                            age_70_or_more_m = sum(m)) %>% 
+                  gather(key = "variable", value = "value", 
+                         -GEOID, -NAME) %>%
+                  mutate(sex = str_sub(variable, start = -1),
+                         variable = str_sub(variable, end = -3))
+
+
+age <- rbind(age_0_9, age_10_19, age_20_29, 
+                  age_30_39, age_40_49, age_50_59, 
+                  age_60_69, age_70_or_over)
+
+
+rm(age_0_9, age_10_19, age_20_29, 
+      age_30_39, age_40_49, age_50_59, 
+      age_60_69, age_70_or_over)
 
 
 
+# A plot for one area (TX)
+tx <- filter(age, NAME == "Texas")
+
+View(tx)
+
+ggplot(tx, aes(x = variable, y = value, fill = sex)) +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.8) +
+  theme_bw() +
+  scale_y_continuous(labels = scales::comma )
 

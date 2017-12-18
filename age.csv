@@ -1,0 +1,1249 @@
+GEOID,NAME,var,f,m,total
+01,Alabama,age_sex_0_4_yrs,143216,143427,286643
+01,Alabama,age_sex_10_14_yrs,145750,155997,301747
+01,Alabama,age_sex_15_17_yrs,94573,103766,198339
+01,Alabama,age_sex_18_19_yrs,68448,68900,137348
+01,Alabama,age_sex_20_yrs,37055,35896,72951
+01,Alabama,age_sex_21_yrs,31213,34648,65861
+01,Alabama,age_sex_22_24_yrs,95586,91324,186910
+01,Alabama,age_sex_25_29_yrs,163997,163233,327230
+01,Alabama,age_sex_30_34_yrs,154129,148206,302335
+01,Alabama,age_sex_35_39_yrs,155050,144632,299682
+01,Alabama,age_sex_40_44_yrs,152028,146559,298587
+01,Alabama,age_sex_45_49_yrs,163603,150129,313732
+01,Alabama,age_sex_5_9_yrs,150739,162049,312788
+01,Alabama,age_sex_50_54_yrs,169017,162874,331891
+01,Alabama,age_sex_55_59_yrs,178373,162520,340893
+01,Alabama,age_sex_60_61_yrs,65377,56712,122089
+01,Alabama,age_sex_62_64_yrs,93912,86410,180322
+01,Alabama,age_sex_65_66_yrs,62562,50538,113100
+01,Alabama,age_sex_67_69_yrs,81420,74285,155705
+01,Alabama,age_sex_70_74_yrs,107806,89058,196864
+01,Alabama,age_sex_75_79_yrs,78322,58399,136721
+01,Alabama,age_sex_80_84_yrs,57542,37631,95173
+01,Alabama,age_sex_85_or_more_yrs,57530,28859,86389
+01,Alabama,age_sex_total_pop,2507248,2356052,4863300
+02,Alaska,age_sex_0_4_yrs,25333,27162,52495
+02,Alaska,age_sex_10_14_yrs,21327,29741,51068
+02,Alaska,age_sex_15_17_yrs,14086,15986,30072
+02,Alaska,age_sex_18_19_yrs,8011,10746,18757
+02,Alaska,age_sex_20_yrs,4106,5080,9186
+02,Alaska,age_sex_21_yrs,4848,6496,11344
+02,Alaska,age_sex_22_24_yrs,14734,21626,36360
+02,Alaska,age_sex_25_29_yrs,31125,32916,64041
+02,Alaska,age_sex_30_34_yrs,27451,30137,57588
+02,Alaska,age_sex_35_39_yrs,23950,25344,49294
+02,Alaska,age_sex_40_44_yrs,21708,21371,43079
+02,Alaska,age_sex_45_49_yrs,20767,23312,44079
+02,Alaska,age_sex_5_9_yrs,27275,26386,53661
+02,Alaska,age_sex_50_54_yrs,22738,26307,49045
+02,Alaska,age_sex_55_59_yrs,25422,28659,54081
+02,Alaska,age_sex_60_61_yrs,9955,7990,17945
+02,Alaska,age_sex_62_64_yrs,10390,13577,23967
+02,Alaska,age_sex_65_66_yrs,6090,7545,13635
+02,Alaska,age_sex_67_69_yrs,8125,9829,17954
+02,Alaska,age_sex_70_74_yrs,10669,9839,20508
+02,Alaska,age_sex_75_79_yrs,5275,5816,11091
+02,Alaska,age_sex_80_84_yrs,3327,2545,5872
+02,Alaska,age_sex_85_or_more_yrs,4609,2163,6772
+02,Alaska,age_sex_total_pop,351321,390573,741894
+04,Arizona,age_sex_0_4_yrs,213503,222819,436322
+04,Arizona,age_sex_10_14_yrs,225373,230178,455551
+04,Arizona,age_sex_15_17_yrs,136921,142736,279657
+04,Arizona,age_sex_18_19_yrs,94826,100530,195356
+04,Arizona,age_sex_20_yrs,47828,53003,100831
+04,Arizona,age_sex_21_yrs,49259,50126,99385
+04,Arizona,age_sex_22_24_yrs,132953,144715,277668
+04,Arizona,age_sex_25_29_yrs,230945,250242,481187
+04,Arizona,age_sex_30_34_yrs,217753,230547,448300
+04,Arizona,age_sex_35_39_yrs,217473,223467,440940
+04,Arizona,age_sex_40_44_yrs,203678,204697,408375
+04,Arizona,age_sex_45_49_yrs,211580,211759,423339
+04,Arizona,age_sex_5_9_yrs,222822,237070,459892
+04,Arizona,age_sex_50_54_yrs,214395,208779,423174
+04,Arizona,age_sex_55_59_yrs,217833,196864,414697
+04,Arizona,age_sex_60_61_yrs,91212,83469,174681
+04,Arizona,age_sex_62_64_yrs,127899,113991,241890
+04,Arizona,age_sex_65_66_yrs,86643,72081,158724
+04,Arizona,age_sex_67_69_yrs,122159,110481,232640
+04,Arizona,age_sex_70_74_yrs,153483,139529,293012
+04,Arizona,age_sex_75_79_yrs,113623,101197,214820
+04,Arizona,age_sex_80_84_yrs,76930,65578,142508
+04,Arizona,age_sex_85_or_more_yrs,77752,50370,128122
+04,Arizona,age_sex_total_pop,3486843,3444228,6931071
+05,Arkansas,age_sex_0_4_yrs,88594,100122,188716
+05,Arkansas,age_sex_10_14_yrs,96242,101091,197333
+05,Arkansas,age_sex_15_17_yrs,59636,60384,120020
+05,Arkansas,age_sex_18_19_yrs,46649,48382,95031
+05,Arkansas,age_sex_20_yrs,18671,24532,43203
+05,Arkansas,age_sex_21_yrs,18105,20078,38183
+05,Arkansas,age_sex_22_24_yrs,56052,57971,114023
+05,Arkansas,age_sex_25_29_yrs,99061,95591,194652
+05,Arkansas,age_sex_30_34_yrs,94727,93199,187926
+05,Arkansas,age_sex_35_39_yrs,93489,91818,185307
+05,Arkansas,age_sex_40_44_yrs,90410,89249,179659
+05,Arkansas,age_sex_45_49_yrs,93749,92308,186057
+05,Arkansas,age_sex_5_9_yrs,98710,102581,201291
+05,Arkansas,age_sex_50_54_yrs,99529,93449,192978
+05,Arkansas,age_sex_55_59_yrs,101990,93123,195113
+05,Arkansas,age_sex_60_61_yrs,39124,35279,74403
+05,Arkansas,age_sex_62_64_yrs,54705,54018,108723
+05,Arkansas,age_sex_65_66_yrs,34457,30712,65169
+05,Arkansas,age_sex_67_69_yrs,52569,47967,100536
+05,Arkansas,age_sex_70_74_yrs,64588,53995,118583
+05,Arkansas,age_sex_75_79_yrs,46969,38267,85236
+05,Arkansas,age_sex_80_84_yrs,33387,26817,60204
+05,Arkansas,age_sex_85_or_more_yrs,38053,17849,55902
+05,Arkansas,age_sex_total_pop,1519466,1468782,2988248
+06,California,age_sex_0_4_yrs,1214113,1268309,2482422
+06,California,age_sex_10_14_yrs,1242791,1303503,2546294
+06,California,age_sex_15_17_yrs,754594,785153,1539747
+06,California,age_sex_18_19_yrs,512158,533249,1045407
+06,California,age_sex_20_yrs,277954,299300,577254
+06,California,age_sex_21_yrs,261938,302693,564631
+06,California,age_sex_22_24_yrs,812093,853142,1665235
+06,California,age_sex_25_29_yrs,1484695,1576509,3061204
+06,California,age_sex_30_34_yrs,1387571,1453389,2840960
+06,California,age_sex_35_39_yrs,1321087,1332066,2653153
+06,California,age_sex_40_44_yrs,1251500,1263413,2514913
+06,California,age_sex_45_49_yrs,1307546,1302878,2610424
+06,California,age_sex_5_9_yrs,1238806,1285980,2524786
+06,California,age_sex_50_54_yrs,1301011,1286786,2587797
+06,California,age_sex_55_59_yrs,1264512,1216802,2481314
+06,California,age_sex_60_61_yrs,495074,461494,956568
+06,California,age_sex_62_64_yrs,654758,594711,1249469
+06,California,age_sex_65_66_yrs,405577,365885,771462
+06,California,age_sex_67_69_yrs,556591,490955,1047546
+06,California,age_sex_70_74_yrs,689917,583114,1273031
+06,California,age_sex_75_79_yrs,492409,402744,895153
+06,California,age_sex_80_84_yrs,369869,273838,643707
+06,California,age_sex_85_or_more_yrs,462222,255318,717540
+06,California,age_sex_total_pop,19758786,19491231,39250017
+08,Colorado,age_sex_0_4_yrs,163902,171169,335071
+08,Colorado,age_sex_10_14_yrs,171977,181804,353781
+08,Colorado,age_sex_15_17_yrs,100116,110425,210541
+08,Colorado,age_sex_18_19_yrs,70324,73792,144116
+08,Colorado,age_sex_20_yrs,39912,40201,80113
+08,Colorado,age_sex_21_yrs,34529,42939,77468
+08,Colorado,age_sex_22_24_yrs,110914,121916,232830
+08,Colorado,age_sex_25_29_yrs,202949,220927,423876
+08,Colorado,age_sex_30_34_yrs,198354,215330,413684
+08,Colorado,age_sex_35_39_yrs,186555,204073,390628
+08,Colorado,age_sex_40_44_yrs,176629,178412,355041
+08,Colorado,age_sex_45_49_yrs,178306,181889,360195
+08,Colorado,age_sex_5_9_yrs,174609,186510,361119
+08,Colorado,age_sex_50_54_yrs,179754,179961,359715
+08,Colorado,age_sex_55_59_yrs,190346,181510,371856
+08,Colorado,age_sex_60_61_yrs,73285,66493,139778
+08,Colorado,age_sex_62_64_yrs,94121,93556,187677
+08,Colorado,age_sex_65_66_yrs,58e3,59445,117445
+08,Colorado,age_sex_67_69_yrs,85054,78515,163569
+08,Colorado,age_sex_70_74_yrs,96477,82728,179205
+08,Colorado,age_sex_75_79_yrs,64243,58283,122526
+08,Colorado,age_sex_80_84_yrs,46516,33564,80080
+08,Colorado,age_sex_85_or_more_yrs,52972,27259,80231
+08,Colorado,age_sex_total_pop,2749844,2790701,5540545
+09,Connecticut,age_sex_0_4_yrs,90780,94249,185029
+09,Connecticut,age_sex_10_14_yrs,110989,113021,224010
+09,Connecticut,age_sex_15_17_yrs,68740,73495,142235
+09,Connecticut,age_sex_18_19_yrs,51857,55223,107080
+09,Connecticut,age_sex_20_yrs,25765,24579,50344
+09,Connecticut,age_sex_21_yrs,25996,27519,53515
+09,Connecticut,age_sex_22_24_yrs,68021,77593,145614
+09,Connecticut,age_sex_25_29_yrs,105529,111545,217074
+09,Connecticut,age_sex_30_34_yrs,111310,108212,219522
+09,Connecticut,age_sex_35_39_yrs,104045,101318,205363
+09,Connecticut,age_sex_40_44_yrs,111687,107442,219129
+09,Connecticut,age_sex_45_49_yrs,128846,120933,249779
+09,Connecticut,age_sex_5_9_yrs,96890,103998,200888
+09,Connecticut,age_sex_50_54_yrs,141815,133135,274950
+09,Connecticut,age_sex_55_59_yrs,135600,129860,265460
+09,Connecticut,age_sex_60_61_yrs,58925,49146,108071
+09,Connecticut,age_sex_62_64_yrs,66708,65041,131749
+09,Connecticut,age_sex_65_66_yrs,42342,38186,80528
+09,Connecticut,age_sex_67_69_yrs,58323,51310,109633
+09,Connecticut,age_sex_70_74_yrs,72207,61267,133474
+09,Connecticut,age_sex_75_79_yrs,50806,41105,91911
+09,Connecticut,age_sex_80_84_yrs,43904,28495,72399
+09,Connecticut,age_sex_85_or_more_yrs,60214,28481,88695
+09,Connecticut,age_sex_total_pop,1831299,1745153,3576452
+10,Delaware,age_sex_0_4_yrs,26865,28376,55241
+10,Delaware,age_sex_10_14_yrs,27946,31329,59275
+10,Delaware,age_sex_15_17_yrs,17313,17692,35005
+10,Delaware,age_sex_18_19_yrs,12835,12994,25829
+10,Delaware,age_sex_20_yrs,5768,5766,11534
+10,Delaware,age_sex_21_yrs,5472,6683,12155
+10,Delaware,age_sex_22_24_yrs,18130,17633,35763
+10,Delaware,age_sex_25_29_yrs,33432,33658,67090
+10,Delaware,age_sex_30_34_yrs,31382,30097,61479
+10,Delaware,age_sex_35_39_yrs,26247,24686,50933
+10,Delaware,age_sex_40_44_yrs,29626,29459,59085
+10,Delaware,age_sex_45_49_yrs,31225,28586,59811
+10,Delaware,age_sex_5_9_yrs,28563,26153,54716
+10,Delaware,age_sex_50_54_yrs,34437,31615,66052
+10,Delaware,age_sex_55_59_yrs,35569,34245,69814
+10,Delaware,age_sex_60_61_yrs,12718,10979,23697
+10,Delaware,age_sex_62_64_yrs,21560,16352,37912
+10,Delaware,age_sex_65_66_yrs,12928,12140,25068
+10,Delaware,age_sex_67_69_yrs,18973,15715,34688
+10,Delaware,age_sex_70_74_yrs,22241,18293,40534
+10,Delaware,age_sex_75_79_yrs,17097,13435,30532
+10,Delaware,age_sex_80_84_yrs,10293,7369,17662
+10,Delaware,age_sex_85_or_more_yrs,11213,6977,18190
+10,Delaware,age_sex_total_pop,491833,460232,952065
+11,District of Columbia,age_sex_0_4_yrs,21380,22166,43546
+11,District of Columbia,age_sex_10_14_yrs,14397,12478,26875
+11,District of Columbia,age_sex_15_17_yrs,7747,7905,15652
+11,District of Columbia,age_sex_18_19_yrs,12520,9419,21939
+11,District of Columbia,age_sex_20_yrs,6323,5119,11442
+11,District of Columbia,age_sex_21_yrs,4768,6067,10835
+11,District of Columbia,age_sex_22_24_yrs,20620,15394,36014
+11,District of Columbia,age_sex_25_29_yrs,42004,36941,78945
+11,District of Columbia,age_sex_30_34_yrs,39593,36124,75717
+11,District of Columbia,age_sex_35_39_yrs,27752,28613,56365
+11,District of Columbia,age_sex_40_44_yrs,22152,20394,42546
+11,District of Columbia,age_sex_45_49_yrs,19323,19870,39193
+11,District of Columbia,age_sex_5_9_yrs,16395,18314,34709
+11,District of Columbia,age_sex_50_54_yrs,19177,19235,38412
+11,District of Columbia,age_sex_55_59_yrs,17252,18084,35336
+11,District of Columbia,age_sex_60_61_yrs,6939,6744,13683
+11,District of Columbia,age_sex_62_64_yrs,12607,8257,20864
+11,District of Columbia,age_sex_65_66_yrs,6512,5116,11628
+11,District of Columbia,age_sex_67_69_yrs,8857,6761,15618
+11,District of Columbia,age_sex_70_74_yrs,10298,8623,18921
+11,District of Columbia,age_sex_75_79_yrs,7971,5280,13251
+11,District of Columbia,age_sex_80_84_yrs,5560,3777,9337
+11,District of Columbia,age_sex_85_or_more_yrs,7432,2910,10342
+11,District of Columbia,age_sex_total_pop,357579,323591,681170
+12,Florida,age_sex_0_4_yrs,546290,571177,1117467
+12,Florida,age_sex_10_14_yrs,576320,590156,1166476
+12,Florida,age_sex_15_17_yrs,354611,373330,727941
+12,Florida,age_sex_18_19_yrs,244773,251999,496772
+12,Florida,age_sex_20_yrs,134681,127474,262155
+12,Florida,age_sex_21_yrs,123103,127686,250789
+12,Florida,age_sex_22_24_yrs,355054,398858,753912
+12,Florida,age_sex_25_29_yrs,675644,690735,1366379
+12,Florida,age_sex_30_34_yrs,642828,651709,1294537
+12,Florida,age_sex_35_39_yrs,624581,618215,1242796
+12,Florida,age_sex_40_44_yrs,622547,601737,1224284
+12,Florida,age_sex_45_49_yrs,671168,654569,1325737
+12,Florida,age_sex_5_9_yrs,549007,584249,1133256
+12,Florida,age_sex_50_54_yrs,731163,698595,1429758
+12,Florida,age_sex_55_59_yrs,743462,676e3,1419462
+12,Florida,age_sex_60_61_yrs,279303,257002,536305
+12,Florida,age_sex_62_64_yrs,416086,357563,773649
+12,Florida,age_sex_65_66_yrs,271154,235653,506807
+12,Florida,age_sex_67_69_yrs,408023,356319,764342
+12,Florida,age_sex_70_74_yrs,541342,465749,1007091
+12,Florida,age_sex_75_79_yrs,400265,349571,749836
+12,Florida,age_sex_80_84_yrs,291701,227489,519190
+12,Florida,age_sex_85_or_more_yrs,338473,205025,543498
+12,Florida,age_sex_total_pop,10541579,10070860,20612439
+13,Georgia,age_sex_0_4_yrs,319540,335338,654878
+13,Georgia,age_sex_10_14_yrs,353683,369785,723468
+13,Georgia,age_sex_15_17_yrs,211254,221046,432300
+13,Georgia,age_sex_18_19_yrs,146200,157075,303275
+13,Georgia,age_sex_20_yrs,71872,74925,146797
+13,Georgia,age_sex_21_yrs,74993,78818,153811
+13,Georgia,age_sex_22_24_yrs,198960,211523,410483
+13,Georgia,age_sex_25_29_yrs,363870,354675,718545
+13,Georgia,age_sex_30_34_yrs,351304,333893,685197
+13,Georgia,age_sex_35_39_yrs,365404,335406,700810
+13,Georgia,age_sex_40_44_yrs,354289,330348,684637
+13,Georgia,age_sex_45_49_yrs,356508,346075,702583
+13,Georgia,age_sex_5_9_yrs,343955,356009,699964
+13,Georgia,age_sex_50_54_yrs,361901,339378,701279
+13,Georgia,age_sex_55_59_yrs,341808,315549,657357
+13,Georgia,age_sex_60_61_yrs,129005,119454,248459
+13,Georgia,age_sex_62_64_yrs,178021,149373,327394
+13,Georgia,age_sex_65_66_yrs,109354,96436,205790
+13,Georgia,age_sex_67_69_yrs,161800,133060,294860
+13,Georgia,age_sex_70_74_yrs,190613,157388,348001
+13,Georgia,age_sex_75_79_yrs,130864,99675,230539
+13,Georgia,age_sex_80_84_yrs,88100,59933,148033
+13,Georgia,age_sex_85_or_more_yrs,88923,42988,131911
+13,Georgia,age_sex_total_pop,5292221,5018150,10310371
+15,Hawaii,age_sex_0_4_yrs,43638,47084,90722
+15,Hawaii,age_sex_10_14_yrs,41162,42337,83499
+15,Hawaii,age_sex_15_17_yrs,23059,24182,47241
+15,Hawaii,age_sex_18_19_yrs,15556,15260,30816
+15,Hawaii,age_sex_20_yrs,7317,12388,19705
+15,Hawaii,age_sex_21_yrs,7050,11379,18429
+15,Hawaii,age_sex_22_24_yrs,29120,31785,60905
+15,Hawaii,age_sex_25_29_yrs,48942,56276,105218
+15,Hawaii,age_sex_30_34_yrs,48720,51906,100626
+15,Hawaii,age_sex_35_39_yrs,45620,46030,91650
+15,Hawaii,age_sex_40_44_yrs,42762,44927,87689
+15,Hawaii,age_sex_45_49_yrs,43174,44203,87377
+15,Hawaii,age_sex_5_9_yrs,41382,44921,86303
+15,Hawaii,age_sex_50_54_yrs,45428,44843,90271
+15,Hawaii,age_sex_55_59_yrs,47060,44808,91868
+15,Hawaii,age_sex_60_61_yrs,18334,18210,36544
+15,Hawaii,age_sex_62_64_yrs,28673,27480,56153
+15,Hawaii,age_sex_65_66_yrs,17598,18744,36342
+15,Hawaii,age_sex_67_69_yrs,25047,23598,48645
+15,Hawaii,age_sex_70_74_yrs,28752,25164,53916
+15,Hawaii,age_sex_75_79_yrs,19839,18111,37950
+15,Hawaii,age_sex_80_84_yrs,16199,12059,28258
+15,Hawaii,age_sex_85_or_more_yrs,26068,12362,38430
+15,Hawaii,age_sex_total_pop,710500,718057,1428557
+16,Idaho,age_sex_0_4_yrs,55927,58216,114143
+16,Idaho,age_sex_10_14_yrs,59506,62327,121833
+16,Idaho,age_sex_15_17_yrs,35364,38750,74114
+16,Idaho,age_sex_18_19_yrs,23947,23434,47381
+16,Idaho,age_sex_20_yrs,11114,14168,25282
+16,Idaho,age_sex_21_yrs,11531,11947,23478
+16,Idaho,age_sex_22_24_yrs,30785,32492,63277
+16,Idaho,age_sex_25_29_yrs,54722,56781,111503
+16,Idaho,age_sex_30_34_yrs,54480,54572,109052
+16,Idaho,age_sex_35_39_yrs,53753,55788,109541
+16,Idaho,age_sex_40_44_yrs,49207,47083,96290
+16,Idaho,age_sex_45_49_yrs,49243,50256,99499
+16,Idaho,age_sex_5_9_yrs,61299,65068,126367
+16,Idaho,age_sex_50_54_yrs,49549,49105,98654
+16,Idaho,age_sex_55_59_yrs,55302,49897,105199
+16,Idaho,age_sex_60_61_yrs,19847,20469,40316
+16,Idaho,age_sex_62_64_yrs,31016,30033,61049
+16,Idaho,age_sex_65_66_yrs,22078,18987,41065
+16,Idaho,age_sex_67_69_yrs,25377,25135,50512
+16,Idaho,age_sex_70_74_yrs,32250,31356,63606
+16,Idaho,age_sex_75_79_yrs,21941,19321,41262
+16,Idaho,age_sex_80_84_yrs,16892,13937,30829
+16,Idaho,age_sex_85_or_more_yrs,16807,12081,28888
+16,Idaho,age_sex_total_pop,841937,841203,1683140
+17,Illinois,age_sex_0_4_yrs,374708,394782,769490
+17,Illinois,age_sex_10_14_yrs,408702,421923,830625
+17,Illinois,age_sex_15_17_yrs,255274,259973,515247
+17,Illinois,age_sex_18_19_yrs,166128,173399,339527
+17,Illinois,age_sex_20_yrs,85961,88067,174028
+17,Illinois,age_sex_21_yrs,81497,87015,168512
+17,Illinois,age_sex_22_24_yrs,262070,269464,531534
+17,Illinois,age_sex_25_29_yrs,439679,451270,890949
+17,Illinois,age_sex_30_34_yrs,435200,439602,874802
+17,Illinois,age_sex_35_39_yrs,418625,418190,836815
+17,Illinois,age_sex_40_44_yrs,410824,406844,817668
+17,Illinois,age_sex_45_49_yrs,424235,418561,842796
+17,Illinois,age_sex_5_9_yrs,391307,416050,807357
+17,Illinois,age_sex_50_54_yrs,443202,430449,873651
+17,Illinois,age_sex_55_59_yrs,438929,421119,860048
+17,Illinois,age_sex_60_61_yrs,177594,163713,341307
+17,Illinois,age_sex_62_64_yrs,236570,217783,454353
+17,Illinois,age_sex_65_66_yrs,140595,123115,263710
+17,Illinois,age_sex_67_69_yrs,189634,167932,357566
+17,Illinois,age_sex_70_74_yrs,245669,206914,452583
+17,Illinois,age_sex_75_79_yrs,176023,135163,311186
+17,Illinois,age_sex_80_84_yrs,135216,95411,230627
+17,Illinois,age_sex_85_or_more_yrs,174173,82985,257158
+17,Illinois,age_sex_total_pop,6511815,6289724,12801539
+18,Indiana,age_sex_0_4_yrs,204768,215599,420367
+18,Indiana,age_sex_10_14_yrs,211776,225736,437512
+18,Indiana,age_sex_15_17_yrs,132767,142784,275551
+18,Indiana,age_sex_18_19_yrs,93425,95216,188641
+18,Indiana,age_sex_20_yrs,51328,48787,100115
+18,Indiana,age_sex_21_yrs,48270,49397,97667
+18,Indiana,age_sex_22_24_yrs,129272,147249,276521
+18,Indiana,age_sex_25_29_yrs,221422,219029,440451
+18,Indiana,age_sex_30_34_yrs,206696,210338,417034
+18,Indiana,age_sex_35_39_yrs,207390,208328,415718
+18,Indiana,age_sex_40_44_yrs,202775,194721,397496
+18,Indiana,age_sex_45_49_yrs,210133,209687,419820
+18,Indiana,age_sex_5_9_yrs,218899,225204,444103
+18,Indiana,age_sex_50_54_yrs,224640,219809,444449
+18,Indiana,age_sex_55_59_yrs,231781,218025,449806
+18,Indiana,age_sex_60_61_yrs,86075,82239,168314
+18,Indiana,age_sex_62_64_yrs,125713,120436,246149
+18,Indiana,age_sex_65_66_yrs,76532,67434,143966
+18,Indiana,age_sex_67_69_yrs,106109,95183,201292
+18,Indiana,age_sex_70_74_yrs,126315,107664,233979
+18,Indiana,age_sex_75_79_yrs,95703,73710,169413
+18,Indiana,age_sex_80_84_yrs,71082,49904,120986
+18,Indiana,age_sex_85_or_more_yrs,82845,40858,123703
+18,Indiana,age_sex_total_pop,3365716,3267337,6633053
+19,Iowa,age_sex_0_4_yrs,95863,101624,197487
+19,Iowa,age_sex_10_14_yrs,100797,103171,203968
+19,Iowa,age_sex_15_17_yrs,59713,62008,121721
+19,Iowa,age_sex_18_19_yrs,46582,51206,97788
+19,Iowa,age_sex_20_yrs,25028,23015,48043
+19,Iowa,age_sex_21_yrs,22321,23356,45677
+19,Iowa,age_sex_22_24_yrs,63482,65716,129198
+19,Iowa,age_sex_25_29_yrs,95227,98867,194094
+19,Iowa,age_sex_30_34_yrs,98605,102353,200958
+19,Iowa,age_sex_35_39_yrs,94637,103342,197979
+19,Iowa,age_sex_40_44_yrs,88693,83116,171809
+19,Iowa,age_sex_45_49_yrs,92013,94853,186866
+19,Iowa,age_sex_5_9_yrs,96945,106846,203791
+19,Iowa,age_sex_50_54_yrs,101483,103003,204486
+19,Iowa,age_sex_55_59_yrs,106961,105493,212454
+19,Iowa,age_sex_60_61_yrs,41774,39772,81546
+19,Iowa,age_sex_62_64_yrs,62106,60980,123086
+19,Iowa,age_sex_65_66_yrs,35519,34165,69684
+19,Iowa,age_sex_67_69_yrs,49670,46719,96389
+19,Iowa,age_sex_70_74_yrs,60757,54235,114992
+19,Iowa,age_sex_75_79_yrs,49183,40069,89252
+19,Iowa,age_sex_80_84_yrs,38483,26256,64739
+19,Iowa,age_sex_85_or_more_yrs,52183,26503,78686
+19,Iowa,age_sex_total_pop,1578025,1556668,3134693
+20,Kansas,age_sex_0_4_yrs,94683,102723,197406
+20,Kansas,age_sex_10_14_yrs,98246,98663,196909
+20,Kansas,age_sex_15_17_yrs,56948,60986,117934
+20,Kansas,age_sex_18_19_yrs,41883,45709,87592
+20,Kansas,age_sex_20_yrs,21602,25181,46783
+20,Kansas,age_sex_21_yrs,19609,24977,44586
+20,Kansas,age_sex_22_24_yrs,57885,63588,121473
+20,Kansas,age_sex_25_29_yrs,92181,93745,185926
+20,Kansas,age_sex_30_34_yrs,94911,96331,191242
+20,Kansas,age_sex_35_39_yrs,91984,93079,185063
+20,Kansas,age_sex_40_44_yrs,80797,87488,168285
+20,Kansas,age_sex_45_49_yrs,83385,83815,167200
+20,Kansas,age_sex_5_9_yrs,97372,105298,202670
+20,Kansas,age_sex_50_54_yrs,93731,89580,183311
+20,Kansas,age_sex_55_59_yrs,98119,97053,195172
+20,Kansas,age_sex_60_61_yrs,37295,33672,70967
+20,Kansas,age_sex_62_64_yrs,55857,51242,107099
+20,Kansas,age_sex_65_66_yrs,31853,30809,62662
+20,Kansas,age_sex_67_69_yrs,43413,41003,84416
+20,Kansas,age_sex_70_74_yrs,53578,46678,100256
+20,Kansas,age_sex_75_79_yrs,40095,34480,74575
+20,Kansas,age_sex_80_84_yrs,31219,21417,52636
+20,Kansas,age_sex_85_or_more_yrs,41790,21336,63126
+20,Kansas,age_sex_total_pop,1458436,1448853,2907289
+21,Kentucky,age_sex_0_4_yrs,133684,139265,272949
+21,Kentucky,age_sex_10_14_yrs,138942,145830,284772
+21,Kentucky,age_sex_15_17_yrs,85279,90894,176173
+21,Kentucky,age_sex_18_19_yrs,66424,64028,130452
+21,Kentucky,age_sex_20_yrs,31236,29698,60934
+21,Kentucky,age_sex_21_yrs,30426,31981,62407
+21,Kentucky,age_sex_22_24_yrs,80179,95036,175215
+21,Kentucky,age_sex_25_29_yrs,145529,144580,290109
+21,Kentucky,age_sex_30_34_yrs,136264,138350,274614
+21,Kentucky,age_sex_35_39_yrs,143033,137961,280994
+21,Kentucky,age_sex_40_44_yrs,135376,139888,275264
+21,Kentucky,age_sex_45_49_yrs,147311,143993,291304
+21,Kentucky,age_sex_5_9_yrs,136420,142143,278563
+21,Kentucky,age_sex_50_54_yrs,156832,149103,305935
+21,Kentucky,age_sex_55_59_yrs,157852,147684,305536
+21,Kentucky,age_sex_60_61_yrs,62153,53478,115631
+21,Kentucky,age_sex_62_64_yrs,86104,82493,168597
+21,Kentucky,age_sex_65_66_yrs,52256,47502,99758
+21,Kentucky,age_sex_67_69_yrs,75752,67462,143214
+21,Kentucky,age_sex_70_74_yrs,90335,78003,168338
+21,Kentucky,age_sex_75_79_yrs,65623,52419,118042
+21,Kentucky,age_sex_80_84_yrs,51079,31261,82340
+21,Kentucky,age_sex_85_or_more_yrs,49071,26762,75833
+21,Kentucky,age_sex_total_pop,2257160,2179814,4436974
+22,Louisiana,age_sex_0_4_yrs,152715,154248,306963
+22,Louisiana,age_sex_10_14_yrs,151253,165946,317199
+22,Louisiana,age_sex_15_17_yrs,90982,96348,187330
+22,Louisiana,age_sex_18_19_yrs,63793,64783,128576
+22,Louisiana,age_sex_20_yrs,33245,37523,70768
+22,Louisiana,age_sex_21_yrs,33890,35543,69433
+22,Louisiana,age_sex_22_24_yrs,90559,90029,180588
+22,Louisiana,age_sex_25_29_yrs,172106,170140,342246
+22,Louisiana,age_sex_30_34_yrs,164529,164333,328862
+22,Louisiana,age_sex_35_39_yrs,155615,153295,308910
+22,Louisiana,age_sex_40_44_yrs,141425,133031,274456
+22,Louisiana,age_sex_45_49_yrs,140049,142355,282404
+22,Louisiana,age_sex_5_9_yrs,149594,156195,305789
+22,Louisiana,age_sex_50_54_yrs,158303,146680,304983
+22,Louisiana,age_sex_55_59_yrs,161031,153548,314579
+22,Louisiana,age_sex_60_61_yrs,68088,56121,124209
+22,Louisiana,age_sex_62_64_yrs,82898,77294,160192
+22,Louisiana,age_sex_65_66_yrs,48585,45632,94217
+22,Louisiana,age_sex_67_69_yrs,73604,62662,136266
+22,Louisiana,age_sex_70_74_yrs,95137,78239,173376
+22,Louisiana,age_sex_75_79_yrs,64392,51527,115919
+22,Louisiana,age_sex_80_84_yrs,46116,31399,77515
+22,Louisiana,age_sex_85_or_more_yrs,51877,25009,76886
+22,Louisiana,age_sex_total_pop,2389786,2291880,4681666
+23,Maine,age_sex_0_4_yrs,31179,32762,63941
+23,Maine,age_sex_10_14_yrs,33904,35053,68957
+23,Maine,age_sex_15_17_yrs,22983,24217,47200
+23,Maine,age_sex_18_19_yrs,17342,17552,34894
+23,Maine,age_sex_20_yrs,8478,8302,16780
+23,Maine,age_sex_21_yrs,7362,6920,14282
+23,Maine,age_sex_22_24_yrs,19994,24009,44003
+23,Maine,age_sex_25_29_yrs,39758,40083,79841
+23,Maine,age_sex_30_34_yrs,39362,38249,77611
+23,Maine,age_sex_35_39_yrs,38395,34948,73343
+23,Maine,age_sex_40_44_yrs,38762,39542,78304
+23,Maine,age_sex_45_49_yrs,46880,44118,90998
+23,Maine,age_sex_5_9_yrs,36695,38158,74853
+23,Maine,age_sex_50_54_yrs,51368,49259,100627
+23,Maine,age_sex_55_59_yrs,54756,54485,109241
+23,Maine,age_sex_60_61_yrs,23968,19223,43191
+23,Maine,age_sex_62_64_yrs,29362,27399,56761
+23,Maine,age_sex_65_66_yrs,18628,18840,37468
+23,Maine,age_sex_67_69_yrs,27943,26904,54847
+23,Maine,age_sex_70_74_yrs,32053,27412,59465
+23,Maine,age_sex_75_79_yrs,23118,17312,40430
+23,Maine,age_sex_80_84_yrs,17400,11846,29246
+23,Maine,age_sex_85_or_more_yrs,21087,14109,35196
+23,Maine,age_sex_total_pop,680777,650702,1331479
+24,Maryland,age_sex_0_4_yrs,176281,186614,362895
+24,Maryland,age_sex_10_14_yrs,183397,191134,374531
+24,Maryland,age_sex_15_17_yrs,114070,117949,232019
+24,Maryland,age_sex_18_19_yrs,74400,78898,153298
+24,Maryland,age_sex_20_yrs,36731,38700,75431
+24,Maryland,age_sex_21_yrs,35862,39132,74994
+24,Maryland,age_sex_22_24_yrs,122069,121995,244064
+24,Maryland,age_sex_25_29_yrs,209324,209346,418670
+24,Maryland,age_sex_30_34_yrs,211079,202535,413614
+24,Maryland,age_sex_35_39_yrs,203681,197144,400825
+24,Maryland,age_sex_40_44_yrs,189135,175542,364677
+24,Maryland,age_sex_45_49_yrs,212627,201922,414549
+24,Maryland,age_sex_5_9_yrs,182816,193891,376707
+24,Maryland,age_sex_50_54_yrs,230182,209953,440135
+24,Maryland,age_sex_55_59_yrs,220373,201351,421724
+24,Maryland,age_sex_60_61_yrs,81475,71849,153324
+24,Maryland,age_sex_62_64_yrs,117036,101506,218542
+24,Maryland,age_sex_65_66_yrs,68752,58715,127467
+24,Maryland,age_sex_67_69_yrs,97754,84537,182291
+24,Maryland,age_sex_70_74_yrs,114811,93832,208643
+24,Maryland,age_sex_75_79_yrs,83782,64077,147859
+24,Maryland,age_sex_80_84_yrs,60123,39611,99734
+24,Maryland,age_sex_85_or_more_yrs,72914,37540,110454
+24,Maryland,age_sex_total_pop,3098674,2917773,6016447
+25,Massachusetts,age_sex_0_4_yrs,176683,183091,359774
+25,Massachusetts,age_sex_10_14_yrs,194972,209715,404687
+25,Massachusetts,age_sex_15_17_yrs,123273,127128,250401
+25,Massachusetts,age_sex_18_19_yrs,106837,102655,209492
+25,Massachusetts,age_sex_20_yrs,52233,56573,108806
+25,Massachusetts,age_sex_21_yrs,48979,49119,98098
+25,Massachusetts,age_sex_22_24_yrs,146607,142314,288921
+25,Massachusetts,age_sex_25_29_yrs,241315,244661,485976
+25,Massachusetts,age_sex_30_34_yrs,233590,231391,464981
+25,Massachusetts,age_sex_35_39_yrs,210885,198960,409845
+25,Massachusetts,age_sex_40_44_yrs,211706,205162,416868
+25,Massachusetts,age_sex_45_49_yrs,235913,224714,460627
+25,Massachusetts,age_sex_5_9_yrs,179476,184609,364085
+25,Massachusetts,age_sex_50_54_yrs,256181,243246,499427
+25,Massachusetts,age_sex_55_59_yrs,252213,229027,481240
+25,Massachusetts,age_sex_60_61_yrs,92685,85850,178535
+25,Massachusetts,age_sex_62_64_yrs,131425,124166,255591
+25,Massachusetts,age_sex_65_66_yrs,77525,69388,146913
+25,Massachusetts,age_sex_67_69_yrs,108387,95181,203568
+25,Massachusetts,age_sex_70_74_yrs,143073,119368,262441
+25,Massachusetts,age_sex_75_79_yrs,100615,74933,175548
+25,Massachusetts,age_sex_80_84_yrs,77644,54219,131863
+25,Massachusetts,age_sex_85_or_more_yrs,103745,50347,154092
+25,Massachusetts,age_sex_total_pop,3505962,3305817,6811779
+26,Michigan,age_sex_0_4_yrs,279569,292094,571663
+26,Michigan,age_sex_10_14_yrs,300641,318158,618799
+26,Michigan,age_sex_15_17_yrs,197009,204338,401347
+26,Michigan,age_sex_18_19_yrs,132885,138388,271273
+26,Michigan,age_sex_20_yrs,71562,75641,147203
+26,Michigan,age_sex_21_yrs,72429,76447,148876
+26,Michigan,age_sex_22_24_yrs,198100,211263,409363
+26,Michigan,age_sex_25_29_yrs,322882,332162,655044
+26,Michigan,age_sex_30_34_yrs,296191,297066,593257
+26,Michigan,age_sex_35_39_yrs,293962,290442,584404
+26,Michigan,age_sex_40_44_yrs,291627,282238,573865
+26,Michigan,age_sex_45_49_yrs,326106,321956,648062
+26,Michigan,age_sex_5_9_yrs,294297,305077,599374
+26,Michigan,age_sex_50_54_yrs,355669,345409,701078
+26,Michigan,age_sex_55_59_yrs,375896,353726,729622
+26,Michigan,age_sex_60_61_yrs,142418,136023,278441
+26,Michigan,age_sex_62_64_yrs,199910,187654,387564
+26,Michigan,age_sex_65_66_yrs,118256,116125,234381
+26,Michigan,age_sex_67_69_yrs,170660,149967,320627
+26,Michigan,age_sex_70_74_yrs,205368,179834,385202
+26,Michigan,age_sex_75_79_yrs,151445,118373,269818
+26,Michigan,age_sex_80_84_yrs,110734,77565,188299
+26,Michigan,age_sex_85_or_more_yrs,137464,73274,210738
+26,Michigan,age_sex_total_pop,5045080,4883220,9928300
+27,Minnesota,age_sex_0_4_yrs,170034,181046,351080
+27,Minnesota,age_sex_10_14_yrs,172157,182384,354541
+27,Minnesota,age_sex_15_17_yrs,104892,110485,215377
+27,Minnesota,age_sex_18_19_yrs,69721,71270,140991
+27,Minnesota,age_sex_20_yrs,35417,40097,75514
+27,Minnesota,age_sex_21_yrs,35006,38754,73760
+27,Minnesota,age_sex_22_24_yrs,108639,107142,215781
+27,Minnesota,age_sex_25_29_yrs,176988,187043,364031
+27,Minnesota,age_sex_30_34_yrs,188655,192123,380778
+27,Minnesota,age_sex_35_39_yrs,176609,185239,361848
+27,Minnesota,age_sex_40_44_yrs,157520,161024,318544
+27,Minnesota,age_sex_45_49_yrs,171863,174521,346384
+27,Minnesota,age_sex_5_9_yrs,180646,186979,367625
+27,Minnesota,age_sex_50_54_yrs,192162,189006,381168
+27,Minnesota,age_sex_55_59_yrs,197696,195277,392973
+27,Minnesota,age_sex_60_61_yrs,73576,70692,144268
+27,Minnesota,age_sex_62_64_yrs,104027,100927,204954
+27,Minnesota,age_sex_65_66_yrs,59592,59193,118785
+27,Minnesota,age_sex_67_69_yrs,83332,76927,160259
+27,Minnesota,age_sex_70_74_yrs,101238,90924,192162
+27,Minnesota,age_sex_75_79_yrs,72818,62002,134820
+27,Minnesota,age_sex_80_84_yrs,61005,41986,102991
+27,Minnesota,age_sex_85_or_more_yrs,78413,42905,121318
+27,Minnesota,age_sex_total_pop,2772006,2747946,5519952
+28,Mississippi,age_sex_0_4_yrs,92799,94031,186830
+28,Mississippi,age_sex_10_14_yrs,102888,105471,208359
+28,Mississippi,age_sex_15_17_yrs,60850,61735,122585
+28,Mississippi,age_sex_18_19_yrs,48117,49112,97229
+28,Mississippi,age_sex_20_yrs,21922,24949,46871
+28,Mississippi,age_sex_21_yrs,20071,19542,39613
+28,Mississippi,age_sex_22_24_yrs,60631,64207,124838
+28,Mississippi,age_sex_25_29_yrs,98209,94582,192791
+28,Mississippi,age_sex_30_34_yrs,97654,88167,185821
+28,Mississippi,age_sex_35_39_yrs,99645,89009,188654
+28,Mississippi,age_sex_40_44_yrs,95660,90286,185946
+28,Mississippi,age_sex_45_49_yrs,93619,89639,183258
+28,Mississippi,age_sex_5_9_yrs,101070,104309,205379
+28,Mississippi,age_sex_50_54_yrs,100115,92063,192178
+28,Mississippi,age_sex_55_59_yrs,104047,91232,195279
+28,Mississippi,age_sex_60_61_yrs,39001,34150,73151
+28,Mississippi,age_sex_62_64_yrs,57125,53185,110310
+28,Mississippi,age_sex_65_66_yrs,35817,30367,66184
+28,Mississippi,age_sex_67_69_yrs,46753,46082,92835
+28,Mississippi,age_sex_70_74_yrs,60611,50479,111090
+28,Mississippi,age_sex_75_79_yrs,44034,33013,77047
+28,Mississippi,age_sex_80_84_yrs,30721,20774,51495
+28,Mississippi,age_sex_85_or_more_yrs,36433,14550,50983
+28,Mississippi,age_sex_total_pop,1547792,1440934,2988726
+29,Missouri,age_sex_0_4_yrs,179905,191627,371532
+29,Missouri,age_sex_10_14_yrs,193077,201255,394332
+29,Missouri,age_sex_15_17_yrs,118123,122664,240787
+29,Missouri,age_sex_18_19_yrs,85245,90219,175464
+29,Missouri,age_sex_20_yrs,40096,46123,86219
+29,Missouri,age_sex_21_yrs,38372,41094,79466
+29,Missouri,age_sex_22_24_yrs,116997,123776,240773
+29,Missouri,age_sex_25_29_yrs,204525,204466,408991
+29,Missouri,age_sex_30_34_yrs,195627,194959,390586
+29,Missouri,age_sex_35_39_yrs,194148,192042,386190
+29,Missouri,age_sex_40_44_yrs,178299,172766,351065
+29,Missouri,age_sex_45_49_yrs,189985,186411,376396
+29,Missouri,age_sex_5_9_yrs,184491,198922,383413
+29,Missouri,age_sex_50_54_yrs,211227,204489,415716
+29,Missouri,age_sex_55_59_yrs,223848,210389,434237
+29,Missouri,age_sex_60_61_yrs,84147,79384,163531
+29,Missouri,age_sex_62_64_yrs,113616,103707,217323
+29,Missouri,age_sex_65_66_yrs,72226,60922,133148
+29,Missouri,age_sex_67_69_yrs,101602,91049,192651
+29,Missouri,age_sex_70_74_yrs,124089,111009,235098
+29,Missouri,age_sex_75_79_yrs,95865,71137,167002
+29,Missouri,age_sex_80_84_yrs,72188,50492,122680
+29,Missouri,age_sex_85_or_more_yrs,80651,45749,126400
+29,Missouri,age_sex_total_pop,3098349,2994651,6093e3
+30,Montana,age_sex_0_4_yrs,29383,31760,61143
+30,Montana,age_sex_10_14_yrs,32098,33511,65609
+30,Montana,age_sex_15_17_yrs,17215,21232,38447
+30,Montana,age_sex_18_19_yrs,13998,13305,27303
+30,Montana,age_sex_20_yrs,6979,8446,15425
+30,Montana,age_sex_21_yrs,7332,7141,14473
+30,Montana,age_sex_22_24_yrs,21023,23006,44029
+30,Montana,age_sex_25_29_yrs,29914,32507,62421
+30,Montana,age_sex_30_34_yrs,32622,31793,64415
+30,Montana,age_sex_35_39_yrs,29742,33148,62890
+30,Montana,age_sex_40_44_yrs,27263,30115,57378
+30,Montana,age_sex_45_49_yrs,30878,30701,61579
+30,Montana,age_sex_5_9_yrs,30599,32876,63475
+30,Montana,age_sex_50_54_yrs,33198,33056,66254
+30,Montana,age_sex_55_59_yrs,38633,39170,77803
+30,Montana,age_sex_60_61_yrs,16116,14573,30689
+30,Montana,age_sex_62_64_yrs,23390,21916,45306
+30,Montana,age_sex_65_66_yrs,13282,13093,26375
+30,Montana,age_sex_67_69_yrs,20057,18381,38438
+30,Montana,age_sex_70_74_yrs,21183,23581,44764
+30,Montana,age_sex_75_79_yrs,16995,14073,31068
+30,Montana,age_sex_80_84_yrs,11270,10044,21314
+30,Montana,age_sex_85_or_more_yrs,13327,8595,21922
+30,Montana,age_sex_total_pop,516497,526023,1042520
+31,Nebraska,age_sex_0_4_yrs,65693,66464,132157
+31,Nebraska,age_sex_10_14_yrs,62798,70016,132814
+31,Nebraska,age_sex_15_17_yrs,37001,39406,76407
+31,Nebraska,age_sex_18_19_yrs,26838,27176,54014
+31,Nebraska,age_sex_20_yrs,15740,14876,30616
+31,Nebraska,age_sex_21_yrs,13167,15247,28414
+31,Nebraska,age_sex_22_24_yrs,37123,39044,76167
+31,Nebraska,age_sex_25_29_yrs,59224,64735,123959
+31,Nebraska,age_sex_30_34_yrs,64648,66777,131425
+31,Nebraska,age_sex_35_39_yrs,60475,61130,121605
+31,Nebraska,age_sex_40_44_yrs,54704,56972,111676
+31,Nebraska,age_sex_45_49_yrs,53644,55173,108817
+31,Nebraska,age_sex_5_9_yrs,66831,65876,132707
+31,Nebraska,age_sex_50_54_yrs,59658,60136,119794
+31,Nebraska,age_sex_55_59_yrs,60517,62654,123171
+31,Nebraska,age_sex_60_61_yrs,25861,24928,50789
+31,Nebraska,age_sex_62_64_yrs,35462,31832,67294
+31,Nebraska,age_sex_65_66_yrs,19542,19105,38647
+31,Nebraska,age_sex_67_69_yrs,28732,26359,55091
+31,Nebraska,age_sex_70_74_yrs,34459,30585,65044
+31,Nebraska,age_sex_75_79_yrs,24845,21518,46363
+31,Nebraska,age_sex_80_84_yrs,23814,14726,38540
+31,Nebraska,age_sex_85_or_more_yrs,26216,15389,41605
+31,Nebraska,age_sex_total_pop,956992,950124,1907116
+32,Nevada,age_sex_0_4_yrs,89284,94077,183361
+32,Nevada,age_sex_10_14_yrs,93228,97612,190840
+32,Nevada,age_sex_15_17_yrs,54932,58762,113694
+32,Nevada,age_sex_18_19_yrs,32540,33741,66281
+32,Nevada,age_sex_20_yrs,18485,21110,39595
+32,Nevada,age_sex_21_yrs,18005,19394,37399
+32,Nevada,age_sex_22_24_yrs,54321,54350,108671
+32,Nevada,age_sex_25_29_yrs,105720,109685,215405
+32,Nevada,age_sex_30_34_yrs,102727,106173,208900
+32,Nevada,age_sex_35_39_yrs,98485,98370,196855
+32,Nevada,age_sex_40_44_yrs,94743,98775,193518
+32,Nevada,age_sex_45_49_yrs,95941,100284,196225
+32,Nevada,age_sex_5_9_yrs,93877,95730,189607
+32,Nevada,age_sex_50_54_yrs,96374,98442,194816
+32,Nevada,age_sex_55_59_yrs,91097,95780,186877
+32,Nevada,age_sex_60_61_yrs,39964,35383,75347
+32,Nevada,age_sex_62_64_yrs,53559,47347,100906
+32,Nevada,age_sex_65_66_yrs,32579,30783,63362
+32,Nevada,age_sex_67_69_yrs,50850,44471,95321
+32,Nevada,age_sex_70_74_yrs,58386,58859,117245
+32,Nevada,age_sex_75_79_yrs,41112,36748,77860
+32,Nevada,age_sex_80_84_yrs,26031,22348,48379
+32,Nevada,age_sex_85_or_more_yrs,24665,14929,39594
+32,Nevada,age_sex_total_pop,1466905,1473153,2940058
+33,New Hampshire,age_sex_0_4_yrs,30310,34168,64478
+33,New Hampshire,age_sex_10_14_yrs,34738,37751,72489
+33,New Hampshire,age_sex_15_17_yrs,23125,25627,48752
+33,New Hampshire,age_sex_18_19_yrs,18663,20070,38733
+33,New Hampshire,age_sex_20_yrs,9329,10277,19606
+33,New Hampshire,age_sex_21_yrs,7278,8141,15419
+33,New Hampshire,age_sex_22_24_yrs,26389,27221,53610
+33,New Hampshire,age_sex_25_29_yrs,38926,42298,81224
+33,New Hampshire,age_sex_30_34_yrs,38891,40479,79370
+33,New Hampshire,age_sex_35_39_yrs,40152,39112,79264
+33,New Hampshire,age_sex_40_44_yrs,37311,35913,73224
+33,New Hampshire,age_sex_45_49_yrs,46811,46818,93629
+33,New Hampshire,age_sex_5_9_yrs,36428,37694,74122
+33,New Hampshire,age_sex_50_54_yrs,54304,54325,108629
+33,New Hampshire,age_sex_55_59_yrs,54887,55421,110308
+33,New Hampshire,age_sex_60_61_yrs,20300,19087,39387
+33,New Hampshire,age_sex_62_64_yrs,28622,26997,55619
+33,New Hampshire,age_sex_65_66_yrs,16989,17121,34110
+33,New Hampshire,age_sex_67_69_yrs,24735,22351,47086
+33,New Hampshire,age_sex_70_74_yrs,28105,25873,53978
+33,New Hampshire,age_sex_75_79_yrs,19226,16454,35680
+33,New Hampshire,age_sex_80_84_yrs,14776,11500,26276
+33,New Hampshire,age_sex_85_or_more_yrs,19778,10024,29802
+33,New Hampshire,age_sex_total_pop,670073,664722,1334795
+34,New Jersey,age_sex_0_4_yrs,255078,265092,520170
+34,New Jersey,age_sex_10_14_yrs,272520,287429,559949
+34,New Jersey,age_sex_15_17_yrs,171938,181641,353579
+34,New Jersey,age_sex_18_19_yrs,104442,113896,218338
+34,New Jersey,age_sex_20_yrs,58397,54364,112761
+34,New Jersey,age_sex_21_yrs,50944,58687,109631
+34,New Jersey,age_sex_22_24_yrs,167377,180751,348128
+34,New Jersey,age_sex_25_29_yrs,283044,293327,576371
+34,New Jersey,age_sex_30_34_yrs,289924,290767,580691
+34,New Jersey,age_sex_35_39_yrs,304704,293671,598375
+34,New Jersey,age_sex_40_44_yrs,277635,275378,553013
+34,New Jersey,age_sex_45_49_yrs,321100,307924,629024
+34,New Jersey,age_sex_5_9_yrs,270073,280668,550741
+34,New Jersey,age_sex_50_54_yrs,342047,323435,665482
+34,New Jersey,age_sex_55_59_yrs,330121,313093,643214
+34,New Jersey,age_sex_60_61_yrs,126996,112606,239602
+34,New Jersey,age_sex_62_64_yrs,162768,150477,313245
+34,New Jersey,age_sex_65_66_yrs,101176,85954,187130
+34,New Jersey,age_sex_67_69_yrs,141951,122799,264750
+34,New Jersey,age_sex_70_74_yrs,180997,148269,329266
+34,New Jersey,age_sex_75_79_yrs,132754,96094,228848
+34,New Jersey,age_sex_80_84_yrs,95761,67627,163388
+34,New Jersey,age_sex_85_or_more_yrs,132511,66262,198773
+34,New Jersey,age_sex_total_pop,4574258,4370211,8944469
+35,New Mexico,age_sex_0_4_yrs,62200,62926,125126
+35,New Mexico,age_sex_10_14_yrs,67087,74108,141195
+35,New Mexico,age_sex_15_17_yrs,40672,44486,85158
+35,New Mexico,age_sex_18_19_yrs,28708,30557,59265
+35,New Mexico,age_sex_20_yrs,14783,12974,27757
+35,New Mexico,age_sex_21_yrs,13287,18993,32280
+35,New Mexico,age_sex_22_24_yrs,39919,40899,80818
+35,New Mexico,age_sex_25_29_yrs,66869,75334,142203
+35,New Mexico,age_sex_30_34_yrs,65787,68989,134776
+35,New Mexico,age_sex_35_39_yrs,63249,65948,129197
+35,New Mexico,age_sex_40_44_yrs,60936,59220,120156
+35,New Mexico,age_sex_45_49_yrs,60907,56900,117807
+35,New Mexico,age_sex_5_9_yrs,69724,68311,138035
+35,New Mexico,age_sex_50_54_yrs,67682,64096,131778
+35,New Mexico,age_sex_55_59_yrs,73520,66401,139921
+35,New Mexico,age_sex_60_61_yrs,26591,28031,54622
+35,New Mexico,age_sex_62_64_yrs,42904,35956,78860
+35,New Mexico,age_sex_65_66_yrs,25636,24354,49990
+35,New Mexico,age_sex_67_69_yrs,37348,32680,70028
+35,New Mexico,age_sex_70_74_yrs,44494,38268,82762
+35,New Mexico,age_sex_75_79_yrs,33827,27272,61099
+35,New Mexico,age_sex_80_84_yrs,20969,18479,39448
+35,New Mexico,age_sex_85_or_more_yrs,23692,15042,38734
+35,New Mexico,age_sex_total_pop,1050791,1030224,2081015
+36,New York,age_sex_0_4_yrs,569421,589598,1159019
+36,New York,age_sex_10_14_yrs,566834,577890,1144724
+36,New York,age_sex_15_17_yrs,351570,369991,721561
+36,New York,age_sex_18_19_yrs,261298,264735,526033
+36,New York,age_sex_20_yrs,137170,143141,280311
+36,New York,age_sex_21_yrs,135419,136605,272024
+36,New York,age_sex_22_24_yrs,416842,417101,833943
+36,New York,age_sex_25_29_yrs,750478,750834,1501312
+36,New York,age_sex_30_34_yrs,696651,688825,1385476
+36,New York,age_sex_35_39_yrs,650106,629692,1279798
+36,New York,age_sex_40_44_yrs,604230,576256,1180486
+36,New York,age_sex_45_49_yrs,673878,640712,1314590
+36,New York,age_sex_5_9_yrs,555993,598089,1154082
+36,New York,age_sex_50_54_yrs,717169,676949,1394118
+36,New York,age_sex_55_59_yrs,698517,644266,1342783
+36,New York,age_sex_60_61_yrs,269464,250634,520098
+36,New York,age_sex_62_64_yrs,371198,332952,704150
+36,New York,age_sex_65_66_yrs,227920,190733,418653
+36,New York,age_sex_67_69_yrs,312193,268148,580341
+36,New York,age_sex_70_74_yrs,392203,323840,716043
+36,New York,age_sex_75_79_yrs,286156,210253,496409
+36,New York,age_sex_80_84_yrs,222657,155132,377789
+36,New York,age_sex_85_or_more_yrs,295872,145674,441546
+36,New York,age_sex_total_pop,10163239,9582050,19745289
+37,North Carolina,age_sex_0_4_yrs,289982,304611,594593
+37,North Carolina,age_sex_10_14_yrs,323611,333660,657271
+37,North Carolina,age_sex_15_17_yrs,195109,205413,400522
+37,North Carolina,age_sex_18_19_yrs,138673,149350,288023
+37,North Carolina,age_sex_20_yrs,65038,74457,139495
+37,North Carolina,age_sex_21_yrs,64304,73032,137336
+37,North Carolina,age_sex_22_24_yrs,204673,203182,407855
+37,North Carolina,age_sex_25_29_yrs,346280,335241,681521
+37,North Carolina,age_sex_30_34_yrs,329467,310298,639765
+37,North Carolina,age_sex_35_39_yrs,335713,311660,647373
+37,North Carolina,age_sex_40_44_yrs,335014,321883,656897
+37,North Carolina,age_sex_45_49_yrs,351688,342489,694177
+37,North Carolina,age_sex_5_9_yrs,311186,333322,644508
+37,North Carolina,age_sex_50_54_yrs,354611,337008,691619
+37,North Carolina,age_sex_55_59_yrs,350076,324076,674152
+37,North Carolina,age_sex_60_61_yrs,133474,120678,254152
+37,North Carolina,age_sex_62_64_yrs,200905,168033,368938
+37,North Carolina,age_sex_65_66_yrs,118897,105563,224460
+37,North Carolina,age_sex_67_69_yrs,170957,152421,323378
+37,North Carolina,age_sex_70_74_yrs,217989,179039,397028
+37,North Carolina,age_sex_75_79_yrs,153912,117445,271357
+37,North Carolina,age_sex_80_84_yrs,112395,73393,185788
+37,North Carolina,age_sex_85_or_more_yrs,109453,57127,166580
+37,North Carolina,age_sex_total_pop,5213407,4933381,10146788
+38,North Dakota,age_sex_0_4_yrs,25176,29722,54898
+38,North Dakota,age_sex_10_14_yrs,20721,24107,44828
+38,North Dakota,age_sex_15_17_yrs,12841,12313,25154
+38,North Dakota,age_sex_18_19_yrs,11582,12091,23673
+38,North Dakota,age_sex_20_yrs,5938,5746,11684
+38,North Dakota,age_sex_21_yrs,6256,7419,13675
+38,North Dakota,age_sex_22_24_yrs,17807,21504,39311
+38,North Dakota,age_sex_25_29_yrs,27702,33706,61408
+38,North Dakota,age_sex_30_34_yrs,25850,28800,54650
+38,North Dakota,age_sex_35_39_yrs,21938,24370,46308
+38,North Dakota,age_sex_40_44_yrs,18055,21933,39988
+38,North Dakota,age_sex_45_49_yrs,18748,20462,39210
+38,North Dakota,age_sex_5_9_yrs,24882,24833,49715
+38,North Dakota,age_sex_50_54_yrs,22903,25121,48024
+38,North Dakota,age_sex_55_59_yrs,25140,25586,50726
+38,North Dakota,age_sex_60_61_yrs,8808,9646,18454
+38,North Dakota,age_sex_62_64_yrs,13107,13289,26396
+38,North Dakota,age_sex_65_66_yrs,6982,7675,14657
+38,North Dakota,age_sex_67_69_yrs,10730,9732,20462
+38,North Dakota,age_sex_70_74_yrs,12111,11680,23791
+38,North Dakota,age_sex_75_79_yrs,11005,8339,19344
+38,North Dakota,age_sex_80_84_yrs,7986,5590,13576
+38,North Dakota,age_sex_85_or_more_yrs,11504,6517,18021
+38,North Dakota,age_sex_total_pop,367772,390181,757953
+39,Ohio,age_sex_0_4_yrs,337404,355341,692745
+39,Ohio,age_sex_10_14_yrs,369396,370977,740373
+39,Ohio,age_sex_15_17_yrs,226149,237969,464118
+39,Ohio,age_sex_18_19_yrs,148920,157132,306052
+39,Ohio,age_sex_20_yrs,74019,88172,162191
+39,Ohio,age_sex_21_yrs,79762,74978,154740
+39,Ohio,age_sex_22_24_yrs,227260,233098,460358
+39,Ohio,age_sex_25_29_yrs,382997,392200,775197
+39,Ohio,age_sex_30_34_yrs,363009,362666,725675
+39,Ohio,age_sex_35_39_yrs,357997,348321,706318
+39,Ohio,age_sex_40_44_yrs,335832,338466,674298
+39,Ohio,age_sex_45_49_yrs,377140,369276,746416
+39,Ohio,age_sex_5_9_yrs,344130,367605,711735
+39,Ohio,age_sex_50_54_yrs,406710,393429,800139
+39,Ohio,age_sex_55_59_yrs,433595,410615,844210
+39,Ohio,age_sex_60_61_yrs,164137,160040,324177
+39,Ohio,age_sex_62_64_yrs,231484,209233,440717
+39,Ohio,age_sex_65_66_yrs,135948,125495,261443
+39,Ohio,age_sex_67_69_yrs,199946,177893,377839
+39,Ohio,age_sex_70_74_yrs,240893,200485,441378
+39,Ohio,age_sex_75_79_yrs,182799,141157,323956
+39,Ohio,age_sex_80_84_yrs,135761,92763,228524
+39,Ohio,age_sex_85_or_more_yrs,167485,84289,251774
+39,Ohio,age_sex_total_pop,5922773,5691600,11614373
+40,Oklahoma,age_sex_0_4_yrs,128289,135807,264096
+40,Oklahoma,age_sex_10_14_yrs,131484,139086,270570
+40,Oklahoma,age_sex_15_17_yrs,75031,80646,155677
+40,Oklahoma,age_sex_18_19_yrs,52535,57545,110080
+40,Oklahoma,age_sex_20_yrs,30986,30056,61042
+40,Oklahoma,age_sex_21_yrs,29232,27971,57203
+40,Oklahoma,age_sex_22_24_yrs,73799,87845,161644
+40,Oklahoma,age_sex_25_29_yrs,135896,135594,271490
+40,Oklahoma,age_sex_30_34_yrs,131815,133464,265279
+40,Oklahoma,age_sex_35_39_yrs,120965,123792,244757
+40,Oklahoma,age_sex_40_44_yrs,116415,116419,232834
+40,Oklahoma,age_sex_45_49_yrs,116685,115561,232246
+40,Oklahoma,age_sex_5_9_yrs,132028,139585,271613
+40,Oklahoma,age_sex_50_54_yrs,124735,123830,248565
+40,Oklahoma,age_sex_55_59_yrs,132766,124378,257144
+40,Oklahoma,age_sex_60_61_yrs,51603,44469,96072
+40,Oklahoma,age_sex_62_64_yrs,68701,66256,134957
+40,Oklahoma,age_sex_65_66_yrs,40919,38751,79670
+40,Oklahoma,age_sex_67_69_yrs,62249,54688,116937
+40,Oklahoma,age_sex_70_74_yrs,79168,67609,146777
+40,Oklahoma,age_sex_75_79_yrs,57135,45311,102446
+40,Oklahoma,age_sex_80_84_yrs,44790,30874,75664
+40,Oklahoma,age_sex_85_or_more_yrs,43062,23736,66798
+40,Oklahoma,age_sex_total_pop,1980288,1943273,3923561
+41,Oregon,age_sex_0_4_yrs,113309,121273,234582
+41,Oregon,age_sex_10_14_yrs,120413,122376,242789
+41,Oregon,age_sex_15_17_yrs,73454,76054,149508
+41,Oregon,age_sex_18_19_yrs,50663,51073,101736
+41,Oregon,age_sex_20_yrs,25961,29704,55665
+41,Oregon,age_sex_21_yrs,26222,25257,51479
+41,Oregon,age_sex_22_24_yrs,77727,80660,158387
+41,Oregon,age_sex_25_29_yrs,139263,146478,285741
+41,Oregon,age_sex_30_34_yrs,144042,143250,287292
+41,Oregon,age_sex_35_39_yrs,145174,139273,284447
+41,Oregon,age_sex_40_44_yrs,118516,130809,249325
+41,Oregon,age_sex_45_49_yrs,129189,130299,259488
+41,Oregon,age_sex_5_9_yrs,116964,124403,241367
+41,Oregon,age_sex_50_54_yrs,128051,127361,255412
+41,Oregon,age_sex_55_59_yrs,137829,128839,266668
+41,Oregon,age_sex_60_61_yrs,56997,53497,110494
+41,Oregon,age_sex_62_64_yrs,89507,80690,170197
+41,Oregon,age_sex_65_66_yrs,54849,53142,107991
+41,Oregon,age_sex_67_69_yrs,77667,66527,144194
+41,Oregon,age_sex_70_74_yrs,84972,79490,164462
+41,Oregon,age_sex_75_79_yrs,60045,52571,112616
+41,Oregon,age_sex_80_84_yrs,39829,30927,70756
+41,Oregon,age_sex_85_or_more_yrs,56784,32085,88869
+41,Oregon,age_sex_total_pop,2067427,2026038,4093465
+42,Pennsylvania,age_sex_0_4_yrs,345573,364170,709743
+42,Pennsylvania,age_sex_10_14_yrs,369881,388e3,757881
+42,Pennsylvania,age_sex_15_17_yrs,230387,245835,476222
+42,Pennsylvania,age_sex_18_19_yrs,177805,178782,356587
+42,Pennsylvania,age_sex_20_yrs,84787,89494,174281
+42,Pennsylvania,age_sex_21_yrs,89027,87479,176506
+42,Pennsylvania,age_sex_22_24_yrs,233009,247024,480033
+42,Pennsylvania,age_sex_25_29_yrs,424343,441160,865503
+42,Pennsylvania,age_sex_30_34_yrs,399562,408978,808540
+42,Pennsylvania,age_sex_35_39_yrs,380017,382085,762102
+42,Pennsylvania,age_sex_40_44_yrs,363180,356083,719263
+42,Pennsylvania,age_sex_45_49_yrs,420682,414850,835532
+42,Pennsylvania,age_sex_5_9_yrs,358863,372136,730999
+42,Pennsylvania,age_sex_50_54_yrs,458107,443988,902095
+42,Pennsylvania,age_sex_55_59_yrs,479663,462511,942174
+42,Pennsylvania,age_sex_60_61_yrs,182305,173231,355536
+42,Pennsylvania,age_sex_62_64_yrs,267429,242040,509469
+42,Pennsylvania,age_sex_65_66_yrs,148545,143075,291620
+42,Pennsylvania,age_sex_67_69_yrs,232135,200693,432828
+42,Pennsylvania,age_sex_70_74_yrs,279756,235370,515126
+42,Pennsylvania,age_sex_75_79_yrs,208285,158769,367054
+42,Pennsylvania,age_sex_80_84_yrs,166276,115340,281616
+42,Pennsylvania,age_sex_85_or_more_yrs,221740,111777,333517
+42,Pennsylvania,age_sex_total_pop,6521357,6262870,12784227
+44,Rhode Island,age_sex_0_4_yrs,27089,27055,54144
+44,Rhode Island,age_sex_10_14_yrs,31963,32382,64345
+44,Rhode Island,age_sex_15_17_yrs,18924,19723,38647
+44,Rhode Island,age_sex_18_19_yrs,18443,16924,35367
+44,Rhode Island,age_sex_20_yrs,9169,8636,17805
+44,Rhode Island,age_sex_21_yrs,8271,8109,16380
+44,Rhode Island,age_sex_22_24_yrs,21152,23037,44189
+44,Rhode Island,age_sex_25_29_yrs,36805,38489,75294
+44,Rhode Island,age_sex_30_34_yrs,33391,34107,67498
+44,Rhode Island,age_sex_35_39_yrs,30290,30145,60435
+44,Rhode Island,age_sex_40_44_yrs,32040,30558,62598
+44,Rhode Island,age_sex_45_49_yrs,36278,33158,69436
+44,Rhode Island,age_sex_5_9_yrs,24154,27350,51504
+44,Rhode Island,age_sex_50_54_yrs,39870,37327,77197
+44,Rhode Island,age_sex_55_59_yrs,41797,37107,78904
+44,Rhode Island,age_sex_60_61_yrs,14051,14803,28854
+44,Rhode Island,age_sex_62_64_yrs,21876,17898,39774
+44,Rhode Island,age_sex_65_66_yrs,11584,10666,22250
+44,Rhode Island,age_sex_67_69_yrs,17651,15588,33239
+44,Rhode Island,age_sex_70_74_yrs,22379,19179,41558
+44,Rhode Island,age_sex_75_79_yrs,13957,12936,26893
+44,Rhode Island,age_sex_80_84_yrs,13764,8610,22374
+44,Rhode Island,age_sex_85_or_more_yrs,20170,7571,27741
+44,Rhode Island,age_sex_total_pop,545068,511358,1056426
+45,South Carolina,age_sex_0_4_yrs,142077,147935,290012
+45,South Carolina,age_sex_10_14_yrs,153145,161475,314620
+45,South Carolina,age_sex_15_17_yrs,92084,93286,185370
+45,South Carolina,age_sex_18_19_yrs,69583,75806,145389
+45,South Carolina,age_sex_20_yrs,32606,35609,68215
+45,South Carolina,age_sex_21_yrs,34292,38434,72726
+45,South Carolina,age_sex_22_24_yrs,92889,93460,186349
+45,South Carolina,age_sex_25_29_yrs,171664,165989,337653
+45,South Carolina,age_sex_30_34_yrs,156947,152398,309345
+45,South Carolina,age_sex_35_39_yrs,164322,152391,316713
+45,South Carolina,age_sex_40_44_yrs,150218,144597,294815
+45,South Carolina,age_sex_45_49_yrs,160436,149879,310315
+45,South Carolina,age_sex_5_9_yrs,151040,158922,309962
+45,South Carolina,age_sex_50_54_yrs,172612,160537,333149
+45,South Carolina,age_sex_55_59_yrs,175974,156514,332488
+45,South Carolina,age_sex_60_61_yrs,72556,62495,135051
+45,South Carolina,age_sex_62_64_yrs,100371,88429,188800
+45,South Carolina,age_sex_65_66_yrs,64086,57600,121686
+45,South Carolina,age_sex_67_69_yrs,95379,83974,179353
+45,South Carolina,age_sex_70_74_yrs,116143,97631,213774
+45,South Carolina,age_sex_75_79_yrs,76102,60935,137037
+45,South Carolina,age_sex_80_84_yrs,52365,39040,91405
+45,South Carolina,age_sex_85_or_more_yrs,58885,28007,86892
+45,South Carolina,age_sex_total_pop,2555776,2405343,4961119
+46,South Dakota,age_sex_0_4_yrs,29689,31203,60892
+46,South Dakota,age_sex_10_14_yrs,28911,29218,58129
+46,South Dakota,age_sex_15_17_yrs,15148,18020,33168
+46,South Dakota,age_sex_18_19_yrs,12245,13962,26207
+46,South Dakota,age_sex_20_yrs,6185,6895,13080
+46,South Dakota,age_sex_21_yrs,5979,7059,13038
+46,South Dakota,age_sex_22_24_yrs,16612,16722,33334
+46,South Dakota,age_sex_25_29_yrs,26841,29222,56063
+46,South Dakota,age_sex_30_34_yrs,26182,29291,55473
+46,South Dakota,age_sex_35_39_yrs,25490,26913,52403
+46,South Dakota,age_sex_40_44_yrs,22209,24050,46259
+46,South Dakota,age_sex_45_49_yrs,24170,23517,47687
+46,South Dakota,age_sex_5_9_yrs,29229,32483,61712
+46,South Dakota,age_sex_50_54_yrs,27465,26747,54212
+46,South Dakota,age_sex_55_59_yrs,29101,31232,60333
+46,South Dakota,age_sex_60_61_yrs,11501,11135,22636
+46,South Dakota,age_sex_62_64_yrs,17425,15834,33259
+46,South Dakota,age_sex_65_66_yrs,9003,10945,19948
+46,South Dakota,age_sex_67_69_yrs,15419,12035,27454
+46,South Dakota,age_sex_70_74_yrs,14910,14904,29814
+46,South Dakota,age_sex_75_79_yrs,12642,10162,22804
+46,South Dakota,age_sex_80_84_yrs,9543,7455,16998
+46,South Dakota,age_sex_85_or_more_yrs,13887,6664,20551
+46,South Dakota,age_sex_total_pop,429786,435668,865454
+47,Tennessee,age_sex_0_4_yrs,198332,205836,404168
+47,Tennessee,age_sex_10_14_yrs,204881,222281,427162
+47,Tennessee,age_sex_15_17_yrs,122680,135068,257748
+47,Tennessee,age_sex_18_19_yrs,85345,87114,172459
+47,Tennessee,age_sex_20_yrs,46821,48520,95341
+47,Tennessee,age_sex_21_yrs,42619,45446,88065
+47,Tennessee,age_sex_22_24_yrs,130884,133995,264879
+47,Tennessee,age_sex_25_29_yrs,231403,229717,461120
+47,Tennessee,age_sex_30_34_yrs,214587,210322,424909
+47,Tennessee,age_sex_35_39_yrs,214762,212379,427141
+47,Tennessee,age_sex_40_44_yrs,211642,199114,410756
+47,Tennessee,age_sex_45_49_yrs,223053,215554,438607
+47,Tennessee,age_sex_5_9_yrs,203658,210516,414174
+47,Tennessee,age_sex_50_54_yrs,234023,221297,455320
+47,Tennessee,age_sex_55_59_yrs,231057,213490,444547
+47,Tennessee,age_sex_60_61_yrs,92772,79005,171777
+47,Tennessee,age_sex_62_64_yrs,130687,117079,247766
+47,Tennessee,age_sex_65_66_yrs,81625,75148,156773
+47,Tennessee,age_sex_67_69_yrs,111247,100049,211296
+47,Tennessee,age_sex_70_74_yrs,142601,117700,260301
+47,Tennessee,age_sex_75_79_yrs,104848,83339,188187
+47,Tennessee,age_sex_80_84_yrs,71121,48648,119769
+47,Tennessee,age_sex_85_or_more_yrs,73488,35441,108929
+47,Tennessee,age_sex_total_pop,3404136,3247058,6651194
+48,Texas,age_sex_0_4_yrs,980007,1026904,2006911
+48,Texas,age_sex_10_14_yrs,1002551,1048942,2051493
+48,Texas,age_sex_15_17_yrs,589477,612565,1202042
+48,Texas,age_sex_18_19_yrs,382478,421215,803693
+48,Texas,age_sex_20_yrs,201346,208370,409716
+48,Texas,age_sex_21_yrs,195981,212797,408778
+48,Texas,age_sex_22_24_yrs,567510,605925,1173435
+48,Texas,age_sex_25_29_yrs,1005944,1038819,2044763
+48,Texas,age_sex_30_34_yrs,1001961,1014866,2016827
+48,Texas,age_sex_35_39_yrs,949376,957530,1906906
+48,Texas,age_sex_40_44_yrs,927322,914610,1841932
+48,Texas,age_sex_45_49_yrs,890994,878559,1769553
+48,Texas,age_sex_5_9_yrs,996058,1035190,2031248
+48,Texas,age_sex_50_54_yrs,874407,856704,1731111
+48,Texas,age_sex_55_59_yrs,847128,821431,1668559
+48,Texas,age_sex_60_61_yrs,320212,290001,610213
+48,Texas,age_sex_62_64_yrs,434354,398219,832573
+48,Texas,age_sex_65_66_yrs,263098,233383,496481
+48,Texas,age_sex_67_69_yrs,363348,323556,686904
+48,Texas,age_sex_70_74_yrs,445516,382806,828322
+48,Texas,age_sex_75_79_yrs,325539,256048,581587
+48,Texas,age_sex_80_84_yrs,222717,161334,384051
+48,Texas,age_sex_85_or_more_yrs,244319,131179,375498
+48,Texas,age_sex_total_pop,14031643,13830953,27862596
+49,Utah,age_sex_0_4_yrs,122210,131212,253422
+49,Utah,age_sex_10_14_yrs,122857,129523,252380
+49,Utah,age_sex_15_17_yrs,72139,75251,147390
+49,Utah,age_sex_18_19_yrs,46467,45875,92342
+49,Utah,age_sex_20_yrs,23540,22152,45692
+49,Utah,age_sex_21_yrs,27791,26946,54737
+49,Utah,age_sex_22_24_yrs,71415,81940,153355
+49,Utah,age_sex_25_29_yrs,109592,115387,224979
+49,Utah,age_sex_30_34_yrs,111123,111932,223055
+49,Utah,age_sex_35_39_yrs,110205,116647,226852
+49,Utah,age_sex_40_44_yrs,90479,92695,183174
+49,Utah,age_sex_45_49_yrs,79156,83695,162851
+49,Utah,age_sex_5_9_yrs,130315,138340,268655
+49,Utah,age_sex_50_54_yrs,75419,74582,150001
+49,Utah,age_sex_55_59_yrs,76448,76960,153408
+49,Utah,age_sex_60_61_yrs,30215,29115,59330
+49,Utah,age_sex_62_64_yrs,41790,38314,80104
+49,Utah,age_sex_65_66_yrs,24173,22602,46775
+49,Utah,age_sex_67_69_yrs,34744,31418,66162
+49,Utah,age_sex_70_74_yrs,40376,36978,77354
+49,Utah,age_sex_75_79_yrs,29429,25393,54822
+49,Utah,age_sex_80_84_yrs,23168,15401,38569
+49,Utah,age_sex_85_or_more_yrs,20021,15787,35808
+49,Utah,age_sex_total_pop,1513072,1538145,3051217
+50,Vermont,age_sex_0_4_yrs,14102,16362,30464
+50,Vermont,age_sex_10_14_yrs,16581,17395,33976
+50,Vermont,age_sex_15_17_yrs,10300,10864,21164
+50,Vermont,age_sex_18_19_yrs,9629,10977,20606
+50,Vermont,age_sex_20_yrs,4726,6650,11376
+50,Vermont,age_sex_21_yrs,5719,5506,11225
+50,Vermont,age_sex_22_24_yrs,12128,11012,23140
+50,Vermont,age_sex_25_29_yrs,18385,18862,37247
+50,Vermont,age_sex_30_34_yrs,17475,17163,34638
+50,Vermont,age_sex_35_39_yrs,17864,16569,34433
+50,Vermont,age_sex_40_44_yrs,17490,18596,36086
+50,Vermont,age_sex_45_49_yrs,20548,19894,40442
+50,Vermont,age_sex_5_9_yrs,16601,16479,33080
+50,Vermont,age_sex_50_54_yrs,23692,22590,46282
+50,Vermont,age_sex_55_59_yrs,25629,23724,49353
+50,Vermont,age_sex_60_61_yrs,10023,9653,19676
+50,Vermont,age_sex_62_64_yrs,13861,13945,27806
+50,Vermont,age_sex_65_66_yrs,7115,8824,15939
+50,Vermont,age_sex_67_69_yrs,13516,10553,24069
+50,Vermont,age_sex_70_74_yrs,15051,13916,28967
+50,Vermont,age_sex_75_79_yrs,9846,8852,18698
+50,Vermont,age_sex_80_84_yrs,6923,4792,11715
+50,Vermont,age_sex_85_or_more_yrs,9516,4696,14212
+50,Vermont,age_sex_total_pop,316720,307874,624594
+51,Virginia,age_sex_0_4_yrs,246894,256888,503782
+51,Virginia,age_sex_10_14_yrs,256983,266690,523673
+51,Virginia,age_sex_15_17_yrs,152827,163766,316593
+51,Virginia,age_sex_18_19_yrs,121565,124499,246064
+51,Virginia,age_sex_20_yrs,56590,59338,115928
+51,Virginia,age_sex_21_yrs,54856,60847,115703
+51,Virginia,age_sex_22_24_yrs,164127,181253,345380
+51,Virginia,age_sex_25_29_yrs,288984,291339,580323
+51,Virginia,age_sex_30_34_yrs,286276,285727,572003
+51,Virginia,age_sex_35_39_yrs,279005,276094,555099
+51,Virginia,age_sex_40_44_yrs,270477,269081,539558
+51,Virginia,age_sex_45_49_yrs,290724,276836,567560
+51,Virginia,age_sex_5_9_yrs,256036,267476,523512
+51,Virginia,age_sex_50_54_yrs,304821,292595,597416
+51,Virginia,age_sex_55_59_yrs,292628,279582,572210
+51,Virginia,age_sex_60_61_yrs,113520,105187,218707
+51,Virginia,age_sex_62_64_yrs,153683,136569,290252
+51,Virginia,age_sex_65_66_yrs,90967,80300,171267
+51,Virginia,age_sex_67_69_yrs,138510,121278,259788
+51,Virginia,age_sex_70_74_yrs,165845,140589,306434
+51,Virginia,age_sex_75_79_yrs,116507,91183,207690
+51,Virginia,age_sex_80_84_yrs,82847,60313,143160
+51,Virginia,age_sex_85_or_more_yrs,91651,48055,139706
+51,Virginia,age_sex_total_pop,4276323,4135485,8411808
+53,Washington,age_sex_0_4_yrs,219320,230624,449944
+53,Washington,age_sex_10_14_yrs,216737,225869,442606
+53,Washington,age_sex_15_17_yrs,133189,137147,270336
+53,Washington,age_sex_18_19_yrs,88401,92040,180441
+53,Washington,age_sex_20_yrs,50069,49734,99803
+53,Washington,age_sex_21_yrs,42229,45970,88199
+53,Washington,age_sex_22_24_yrs,137532,156409,293941
+53,Washington,age_sex_25_29_yrs,264711,285311,550022
+53,Washington,age_sex_30_34_yrs,255367,269414,524781
+53,Washington,age_sex_35_39_yrs,251243,251730,502973
+53,Washington,age_sex_40_44_yrs,216809,224252,441061
+53,Washington,age_sex_45_49_yrs,234407,239006,473413
+53,Washington,age_sex_5_9_yrs,226679,239496,466175
+53,Washington,age_sex_50_54_yrs,238633,239181,477814
+53,Washington,age_sex_55_59_yrs,245497,240887,486384
+53,Washington,age_sex_60_61_yrs,100645,88724,189369
+53,Washington,age_sex_62_64_yrs,139445,132480,271925
+53,Washington,age_sex_65_66_yrs,82317,78537,160854
+53,Washington,age_sex_67_69_yrs,118013,104664,222677
+53,Washington,age_sex_70_74_yrs,142648,128405,271053
+53,Washington,age_sex_75_79_yrs,95119,79355,174474
+53,Washington,age_sex_80_84_yrs,66721,52538,119259
+53,Washington,age_sex_85_or_more_yrs,82543,47953,130496
+53,Washington,age_sex_total_pop,3648274,3639726,7288e3
+54,West Virginia,age_sex_0_4_yrs,50365,51303,101668
+54,West Virginia,age_sex_10_14_yrs,52158,54586,106744
+54,West Virginia,age_sex_15_17_yrs,32638,33003,65641
+54,West Virginia,age_sex_18_19_yrs,23461,23840,47301
+54,West Virginia,age_sex_20_yrs,10885,13449,24334
+54,West Virginia,age_sex_21_yrs,11838,13490,25328
+54,West Virginia,age_sex_22_24_yrs,31359,34140,65499
+54,West Virginia,age_sex_25_29_yrs,55796,54678,110474
+54,West Virginia,age_sex_30_34_yrs,52336,53294,105630
+54,West Virginia,age_sex_35_39_yrs,53285,53974,107259
+54,West Virginia,age_sex_40_44_yrs,57231,58109,115340
+54,West Virginia,age_sex_45_49_yrs,58448,58878,117326
+54,West Virginia,age_sex_5_9_yrs,50726,52104,102830
+54,West Virginia,age_sex_50_54_yrs,63044,63054,126098
+54,West Virginia,age_sex_55_59_yrs,70414,65347,135761
+54,West Virginia,age_sex_60_61_yrs,26820,26513,53333
+54,West Virginia,age_sex_62_64_yrs,40424,36337,76761
+54,West Virginia,age_sex_65_66_yrs,24553,21988,46541
+54,West Virginia,age_sex_67_69_yrs,36928,36250,73178
+54,West Virginia,age_sex_70_74_yrs,44752,39568,84320
+54,West Virginia,age_sex_75_79_yrs,33421,27661,61082
+54,West Virginia,age_sex_80_84_yrs,21467,15244,36711
+54,West Virginia,age_sex_85_or_more_yrs,27840,14103,41943
+54,West Virginia,age_sex_total_pop,930189,900913,1831102
+55,Wisconsin,age_sex_0_4_yrs,163233,170858,334091
+55,Wisconsin,age_sex_10_14_yrs,177489,188194,365683
+55,Wisconsin,age_sex_15_17_yrs,110230,114858,225088
+55,Wisconsin,age_sex_18_19_yrs,76772,78831,155603
+55,Wisconsin,age_sex_20_yrs,42667,43481,86148
+55,Wisconsin,age_sex_21_yrs,42643,39791,82434
+55,Wisconsin,age_sex_22_24_yrs,112949,123255,236204
+55,Wisconsin,age_sex_25_29_yrs,174416,185283,359699
+55,Wisconsin,age_sex_30_34_yrs,182412,187911,370323
+55,Wisconsin,age_sex_35_39_yrs,175592,181552,357144
+55,Wisconsin,age_sex_40_44_yrs,160428,168139,328567
+55,Wisconsin,age_sex_45_49_yrs,183458,182795,366253
+55,Wisconsin,age_sex_5_9_yrs,177024,183105,360129
+55,Wisconsin,age_sex_50_54_yrs,209102,206305,415407
+55,Wisconsin,age_sex_55_59_yrs,217236,212619,429855
+55,Wisconsin,age_sex_60_61_yrs,79095,78880,157975
+55,Wisconsin,age_sex_62_64_yrs,113011,107834,220845
+55,Wisconsin,age_sex_65_66_yrs,67778,65895,133673
+55,Wisconsin,age_sex_67_69_yrs,89466,88371,177837
+55,Wisconsin,age_sex_70_74_yrs,115677,102036,217713
+55,Wisconsin,age_sex_75_79_yrs,83749,70351,154100
+55,Wisconsin,age_sex_80_84_yrs,67397,48566,115963
+55,Wisconsin,age_sex_85_or_more_yrs,83964,44011,127975
+55,Wisconsin,age_sex_total_pop,2905788,2872921,5778709
+56,Wyoming,age_sex_0_4_yrs,17341,20532,37873
+56,Wyoming,age_sex_10_14_yrs,18769,18484,37253
+56,Wyoming,age_sex_15_17_yrs,10645,11115,21760
+56,Wyoming,age_sex_18_19_yrs,8356,7349,15705
+56,Wyoming,age_sex_20_yrs,4585,4365,8950
+56,Wyoming,age_sex_21_yrs,2953,3798,6751
+56,Wyoming,age_sex_22_24_yrs,9689,12752,22441
+56,Wyoming,age_sex_25_29_yrs,19764,20748,40512
+56,Wyoming,age_sex_30_34_yrs,19488,20974,40462
+56,Wyoming,age_sex_35_39_yrs,18790,17739,36529
+56,Wyoming,age_sex_40_44_yrs,16394,19209,35603
+56,Wyoming,age_sex_45_49_yrs,14813,18469,33282
+56,Wyoming,age_sex_5_9_yrs,22038,21936,43974
+56,Wyoming,age_sex_50_54_yrs,17641,18163,35804
+56,Wyoming,age_sex_55_59_yrs,20313,19076,39389
+56,Wyoming,age_sex_60_61_yrs,8071,9531,17602
+56,Wyoming,age_sex_62_64_yrs,11346,12682,24028
+56,Wyoming,age_sex_65_66_yrs,6941,6626,13567
+56,Wyoming,age_sex_67_69_yrs,8057,8992,17049
+56,Wyoming,age_sex_70_74_yrs,11550,11477,23027
+56,Wyoming,age_sex_75_79_yrs,8302,6140,14442
+56,Wyoming,age_sex_80_84_yrs,5361,4286,9647
+56,Wyoming,age_sex_85_or_more_yrs,6089,3762,9851
+56,Wyoming,age_sex_total_pop,287296,298205,585501
+72,Puerto Rico,age_sex_0_4_yrs,77178,82575,159753
+72,Puerto Rico,age_sex_10_14_yrs,103435,107834,211269
+72,Puerto Rico,age_sex_15_17_yrs,66262,73121,139383
+72,Puerto Rico,age_sex_18_19_yrs,47884,50958,98842
+72,Puerto Rico,age_sex_20_yrs,26245,27103,53348
+72,Puerto Rico,age_sex_21_yrs,25310,26708,52018
+72,Puerto Rico,age_sex_22_24_yrs,70659,68367,139026
+72,Puerto Rico,age_sex_25_29_yrs,110069,107832,217901
+72,Puerto Rico,age_sex_30_34_yrs,101091,94137,195228
+72,Puerto Rico,age_sex_35_39_yrs,116627,103902,220529
+72,Puerto Rico,age_sex_40_44_yrs,115232,104591,219823
+72,Puerto Rico,age_sex_45_49_yrs,113249,102591,215840
+72,Puerto Rico,age_sex_5_9_yrs,90318,95153,185471
+72,Puerto Rico,age_sex_50_54_yrs,121942,102751,224693
+72,Puerto Rico,age_sex_55_59_yrs,117815,102496,220311
+72,Puerto Rico,age_sex_60_61_yrs,48807,40427,89234
+72,Puerto Rico,age_sex_62_64_yrs,68019,54734,122753
+72,Puerto Rico,age_sex_65_66_yrs,44678,36481,81159
+72,Puerto Rico,age_sex_67_69_yrs,64294,54498,118792
+72,Puerto Rico,age_sex_70_74_yrs,91744,73753,165497
+72,Puerto Rico,age_sex_75_79_yrs,68338,54441,122779
+72,Puerto Rico,age_sex_80_84_yrs,45941,35012,80953
+72,Puerto Rico,age_sex_85_or_more_yrs,50603,26102,76705
+72,Puerto Rico,age_sex_total_pop,1785740,1625567,3411307
