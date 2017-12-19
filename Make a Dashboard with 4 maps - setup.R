@@ -204,27 +204,25 @@ rm(my_breaks, my_labels)
 # rm(trueCentroids)
 
 
+# TODO calculate population density
+
+my_area <- gArea(tx_zips, byid = TRUE)
+
+
 # Make some maps ----------------------------------------------------------
 
 
-# population,
-# median_household_income,
+
+
 # median_rent,
 # rent_to_income
 
 
-
+# population,
 
 my_cols <- brewer.pal(9, "YlGnBu")
 
-
-
-
-
 factpal <- colorFactor(palette = my_cols, levels = levels(tx_zips$population))
-
-
-
 
 leaflet(tx_zips) %>%
   addProviderTiles(providers$Stamen.TonerLite) %>%
@@ -252,10 +250,35 @@ leaflet(tx_zips) %>%
 
 
 
+# median_household_income,
+
+my_reds <- brewer.pal(9, "Reds")
+
+
+factpal_2 <- colorFactor(palette = my_reds, 
+                       levels = levels(tx_zips$median_household_income))
 
 
 
-
-
-
+leaflet(tx_zips) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolygons(stroke = TRUE, 
+              weight = 0.5, 
+              smoothFactor = 0.5, 
+              fillOpacity = 0.5,
+              fillColor = ~factpal_2(median_household_income),
+              highlightOptions = highlightOptions(color = "white", 
+                                                  weight = 2,
+                                                  bringToFront = TRUE), 
+              popup = ~htmlEscape(paste(zip, 
+                                        scales::dollar(inc_median_household_income),
+                                        sep = ": " )
+              )
+  ) %>%
+  addLegend("bottomright",
+            pal = factpal_2, 
+            values = ~median_household_income,
+            title = "Median Household Income",
+            opacity = 1) %>%
+  setView(lng = -97.04034, lat = 32.89981, zoom = 10)
 
