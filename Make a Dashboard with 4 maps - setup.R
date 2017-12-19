@@ -1,9 +1,13 @@
 library(tidyverse)
 library(stringr)
-library(tidycensus)
-library(tigris)
+library(tidycensus) # to pull census data
+library(tigris) # to get shapefiles
 options(tigris_use_cache = TRUE)
-library(sp)
+library(sp) # for over()
+library(RColorBrewer) # for brewer.pal()
+library(leaflet) # for mapping
+library(rgeos) # for trueCentroids() 
+library(htmltools) # for htmlEscape()
 
 census_api_key("f6259ec5d271471f6656ae7c66e2f41b867e5cb1")
 
@@ -164,35 +168,86 @@ my_breaks <- c(0, 10000, 20000, 30000,
                40000, 50000, 70000, 
                max(dat$total_population, na.rm = TRUE))
 
-my_cuts <- c("0-10k",
-             "11-20k",
-             "21-30k",
-             "31-40k",
-             "41-50k",
-             "51-70k",
-             ">70k")
+my_labels <- c("0-10k",
+               "11-20k",
+               "21-30k",
+               "31-40k",
+               "41-50k",
+               "51-70k",
+               ">70k")
 
 tx_zips$population <- cut(tx_zips$total_population, 
                           breaks = my_breaks, 
                           labels = my_labels)
 
 
+ggplot(data = tx_zips@data, aes(x = total_population, fill = population)) + 
+  geom_histogram()
+
+
+rm(my_breaks, my_labels)
+
+
+
+# Calculate Polygon Centroids ---------------------------------------------
+
+# TODO Delete this code, it isn't really needed in mapping
+
+# TODO: this could be useful to calculate the nearest 10 zip codes or something
+
+
+# trueCentroids <- gCentroid(tx_zips, byid = TRUE)
+# 
+# tx_zips$lon <- trueCentroids@coords[,1]
+# tx_zips$lat <- trueCentroids@coords[,2]
+# 
+# rm(trueCentroids)
+
+
+# Make some maps ----------------------------------------------------------
+
+
+# population,
+# median_household_income,
+# median_rent,
+# rent_to_income
+
+
+
+
+my_cols <- brewer.pal(9, "YlGnBu")
 
 
 
 
 
+factpal <- colorFactor(palette = my_cols, levels = levels(tx_zips$population))
 
 
 
 
-
-
-
-
-
-
-
+leaflet(tx_zips) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolygons(stroke = TRUE, 
+              weight = 0.5, 
+              smoothFactor = 0.5, 
+              fillOpacity = 0.5,
+              fillColor = ~factpal(population),
+              highlightOptions = highlightOptions(color = "white", 
+                                                  weight = 2,
+                                                  bringToFront = TRUE), 
+              popup = ~htmlEscape(paste(zip, 
+                                        format(total_population, 
+                                               big.mark = ","), 
+                                        sep = ": " )
+                                  )
+              ) %>%
+  addLegend("bottomright",
+            pal = factpal, 
+            values = ~population,
+            title = "Total Population",
+            opacity = 1) %>%
+  setView(lng = -97.04034, lat = 32.89981, zoom = 10)
 
 
 
