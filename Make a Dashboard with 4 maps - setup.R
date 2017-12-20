@@ -251,14 +251,10 @@ leaflet(tx_zips) %>%
 
 
 # median_household_income,
-
 my_reds <- brewer.pal(9, "Reds")
-
 
 factpal_2 <- colorFactor(palette = my_reds, 
                        levels = levels(tx_zips$median_household_income))
-
-
 
 leaflet(tx_zips) %>%
   addProviderTiles(providers$Stamen.TonerLite) %>%
