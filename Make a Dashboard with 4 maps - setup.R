@@ -1,9 +1,9 @@
-library(tidyverse)
-library(stringr)
+library(tidyverse) # for everything
+library(stringr) # for strings
 library(tidycensus) # to pull census data
 library(tigris) # to get shapefiles
 options(tigris_use_cache = TRUE)
-library(sp) # for over()
+library(sp) # for over() / sp objects
 library(RColorBrewer) # for brewer.pal()
 library(leaflet) # for mapping
 library(rgeos) # for trueCentroids() 
@@ -214,8 +214,8 @@ my_area <- gArea(tx_zips, byid = TRUE)
 
 
 
-# median_rent,
-# rent_to_income
+
+
 
 
 # population,
@@ -277,4 +277,89 @@ leaflet(tx_zips) %>%
             title = "Median Household Income",
             opacity = 1) %>%
   setView(lng = -97.04034, lat = 32.89981, zoom = 10)
+
+
+
+
+# median_rent,
+
+my_purples <- brewer.pal(9, "Purples")
+
+factpal_3 <- colorFactor(palette = my_purples, 
+                         levels = levels(tx_zips$median_rent))
+
+leaflet(tx_zips) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolygons(stroke = TRUE, 
+              weight = 0.5, 
+              smoothFactor = 0.5, 
+              fillOpacity = 0.5,
+              fillColor = ~factpal_3(median_rent),
+              highlightOptions = highlightOptions(color = "white", 
+                                                  weight = 2,
+                                                  bringToFront = TRUE), 
+              popup = ~htmlEscape(paste(zip, 
+                                        scales::dollar(median_gross_rent),
+                                        sep = ": " )
+              )
+  ) %>%
+  addLegend("bottomright",
+            pal = factpal_3, 
+            values = ~median_rent,
+            title = "Median Rent",
+            opacity = 1) %>%
+  setView(lng = -97.04034, lat = 32.89981, zoom = 10)
+
+
+
+
+
+# rent_to_income
+
+my_blues <- brewer.pal(9, "PuBu")
+
+factpal_4 <- colorFactor(palette = my_blues, 
+                         levels = levels(tx_zips$rent_to_income))
+
+leaflet(tx_zips) %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>%
+  addPolygons(stroke = TRUE, 
+              weight = 0.5, 
+              smoothFactor = 0.5, 
+              fillOpacity = 0.5,
+              fillColor = ~factpal_3(median_rent),
+              highlightOptions = highlightOptions(color = "white", 
+                                                  weight = 2,
+                                                  bringToFront = TRUE), 
+              popup = ~htmlEscape(paste(zip, 
+                                        scales::dollar(median_gross_rent),
+                                        sep = ": " )
+              )
+  ) %>%
+  addLegend("bottomright",
+            pal = factpal_3, 
+            values = ~median_rent,
+            title = "Median Rent",
+            opacity = 1) %>%
+  setView(lng = -97.04034, lat = 32.89981, zoom = 10)
+
+
+
+
+# write_rds(tx_zips, "tx_zips.rda")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
