@@ -327,19 +327,19 @@ leaflet(tx_zips) %>%
               weight = 0.5, 
               smoothFactor = 0.5, 
               fillOpacity = 0.5,
-              fillColor = ~factpal_3(median_rent),
+              fillColor = ~factpal_4(rent_to_income),
               highlightOptions = highlightOptions(color = "white", 
                                                   weight = 2,
                                                   bringToFront = TRUE), 
               popup = ~htmlEscape(paste(zip, 
-                                        scales::dollar(median_gross_rent),
+                                        scales::comma(gr_to_income_median),
                                         sep = ": " )
               )
   ) %>%
   addLegend("bottomright",
-            pal = factpal_3, 
-            values = ~median_rent,
-            title = "Median Rent",
+            pal = factpal_4, 
+            values = ~rent_to_income,
+            title = "Rent to Income",
             opacity = 1) %>%
   setView(lng = -97.04034, lat = 32.89981, zoom = 10)
 
