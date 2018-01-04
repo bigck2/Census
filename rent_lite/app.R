@@ -55,59 +55,48 @@ map_income <- leaflet(tx_zips) %>%
 
 # Define UI for application 
 ui <- fluidPage(
-  
   fluidRow(
-    
     textInput(inputId = "my_address", 
               label = "Enter Address:",
               value = "3333 Harry Hines Blvd, Dallas, TX 752001"),
     
     actionButton(inputId = "submit_button", label = "Submit")
-     
   ), 
-  
   fluidRow(
-    
     dataTableOutput("geo_add")
   ),
-  
   fluidRow(
       leafletOutput("map_income") 
   )
-  
-            
 )
 
 
-# Define server logic required to draw a histogram
+# Define server logic 
 server <- function(input, output) {
   
   my_cols <- c("lon", "lat", "address", "neighborhood", "administrative_area_level_2", "postal_code")
   
   new_address <- eventReactive(input$submit_button, {
-    geocode(input$my_address, output = "more")[,my_cols]
+    my_geo_table <- geocode(input$my_address, output = "more")[,my_cols]
+    my_geo_table
   })
   
   output$geo_add <- renderDataTable(new_address(), 
                                     options = list(paging = FALSE,
                                                    searching = FALSE))
-  
-  # output$geo_add <- renderDataTable(new_address(), 
-  #                                   options = list(
-  #                                     searching = FALSE, 
-  #                                     paging = FALSE))
-  
-  
    
   output$map_income <- renderLeaflet({
     map_income
-    
     })
-   
-   
+  
+  
+  
+  
+  output$map_income <- eventReactive(input$submit_button, {
+                              renderLeaflet({map_income})
+                                      })
+
 }
-
-
 
 # Run the application 
 shinyApp(ui = ui, server = server)
