@@ -47,6 +47,18 @@ map_income <- leaflet(tx_zips) %>%
 
 
 
+# Geocode "Home" address --------------------------------------------------
+
+home <- "3333 Harry Hines Blvd, Dallas, TX 752001"
+  
+my_geo_table <- geocode(home, output = "more")
+
+my_cols <- c("lon", "lat", "address", "neighborhood", "administrative_area_level_2", "postal_code")
+
+my_geo_table <- geocode(home, output = "more")[,my_cols]
+
+my_lon <- my_geo_table$lon[1]
+my_lat <- my_geo_table$lat[1]
 
 
 
@@ -74,7 +86,6 @@ ui <- fluidPage(
 # Define server logic 
 server <- function(input, output) {
   
-  my_cols <- c("lon", "lat", "address", "neighborhood", "administrative_area_level_2", "postal_code")
   
   new_address <- eventReactive(input$submit_button, {
     my_geo_table <- geocode(input$my_address, output = "more")[,my_cols]
