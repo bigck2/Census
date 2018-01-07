@@ -49,16 +49,16 @@ map_income <- leaflet(tx_zips) %>%
 
 # Geocode "Home" address --------------------------------------------------
 
-home <- "3333 Harry Hines Blvd, Dallas, TX 752001"
-  
-my_geo_table <- geocode(home, output = "more")
-
+# home <- "3333 Harry Hines Blvd, Dallas, TX 752001"
+#   
+# my_geo_table <- geocode(home, output = "more")
+# 
 my_cols <- c("lon", "lat", "address", "neighborhood", "administrative_area_level_2", "postal_code")
-
-my_geo_table <- geocode(home, output = "more")[,my_cols]
-
-my_lon <- my_geo_table$lon[1]
-my_lat <- my_geo_table$lat[1]
+# 
+# my_geo_table <- geocode(home, output = "more")[,my_cols]
+# 
+# my_lon <- my_geo_table$lon[1]
+# my_lat <- my_geo_table$lat[1]
 
 
 
@@ -67,18 +67,18 @@ my_lat <- my_geo_table$lat[1]
 
 # Define UI for application 
 ui <- fluidPage(
-  fluidRow(
-    textInput(inputId = "my_address", 
-              label = "Enter Address:",
-              value = "3333 Harry Hines Blvd, Dallas, TX 752001"),
-    
-    actionButton(inputId = "submit_button", label = "Submit")
-  ), 
-  fluidRow(
-    dataTableOutput("geo_add")
-  ),
-  fluidRow(
+  titlePanel("US Census Bureau Spatial Demographics"),
+  sidebarLayout(
+    sidebarPanel(
+      textInput(inputId = "my_address", 
+                label = "Enter Address:",
+                value = "3333 Harry Hines Blvd, Dallas, TX 752001"),
+      actionButton(inputId = "submit_button", label = "Submit")
+      ), 
+    mainPanel(
+      dataTableOutput("geo_add"),
       leafletOutput("map_income") 
+    )
   )
 )
 
@@ -86,11 +86,14 @@ ui <- fluidPage(
 # Define server logic 
 server <- function(input, output) {
   
-  
-  new_address <- eventReactive(input$submit_button, {
+  address <- reactive({
     my_geo_table <- geocode(input$my_address, output = "more")[,my_cols]
     my_geo_table
-  })
+    })
+  
+  new_address <- eventReactive(input$submit_button, {
+    address()
+  }, ignoreNULL = FALSE)
   
   output$geo_add <- renderDataTable(new_address(), 
                                     options = list(paging = FALSE,
@@ -103,9 +106,7 @@ server <- function(input, output) {
   
   
   
-  output$map_income <- eventReactive(input$submit_button, {
-                              renderLeaflet({map_income})
-                                      })
+  
 
 }
 
